@@ -57,7 +57,7 @@ exports.isAdmin = function(user) {
 *@type: [<int>]
 */
 exports.UserCount = function() {
-    let db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let users = db.split("\n");
     return users.length-1;
 }
@@ -66,7 +66,7 @@ exports.UserCount = function() {
 *@type: [<int>]
 */
 exports.PremiumCount = function() {
-    let db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let users = db.split("\n");
 
     prm_count = 0;
@@ -88,7 +88,7 @@ exports.PremiumCount = function() {
 *@type: [<int>]
 */
 exports.AdminCount = function() {
-    let db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let users = db.split("\n");
 
     let admin_count = 0
@@ -108,7 +108,7 @@ exports.AdminCount = function() {
 *@type: [<int>]
 */
 exports.TotalAttackedIPs = function() {
-    let db_attacks = fs.readFileSync("./db/attacks/attacks.db", "utf8");
+    let db_attacks = fs.readFileSync("./CNC/db/attacks/attacks.db", "utf8");
     let attacks = db_attacks.split("\n");
 
     return attacks.length=1;
@@ -118,7 +118,7 @@ exports.TotalAttackedIPs = function() {
 *@type: [<int>]
 */
 exports.CurrentOnlineCount = function() {
-    let current_db = fs.readFileSync("./db/sys/current.db", "utf8");
+    let current_db = fs.readFileSync("./CNC/db/sys/current.db", "utf8");
     let users = current_db.split("\n");
 
     return users.length-1;
