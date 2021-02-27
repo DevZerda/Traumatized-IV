@@ -1,5 +1,6 @@
 // Modules
 const fs = require("fs");
+const { prependListener } = require("process");
 
 // File
 const Crud = require("./crud.js");
@@ -10,7 +11,7 @@ const Crud = require("./crud.js");
 */
 exports.User = function(user) {
     let db = fs.readFileSync("./db/sys/users.db", "utf8");
-    
+
     let users = db.split("\n");
 
     let found_check = false;
@@ -100,5 +101,29 @@ exports.userUpdate = function(user, new_level, new_maxtime, new_admin) {
 *@type: void
 */
 exports.resetSessions = function() {
-    fs.writeFileSync("./db/current.db", "");
+    fs.writeFileSync("./db/sys/current.db", "");
+}
+
+exports.GetCurrentUser = function() {
+    let current_db = fs.readFileSync("./db/sys/current.db", "utf8");
+    let users = current_db.split("\n");
+
+    let found_check = false;
+    let user_line = "";
+
+    users.forEach(e => {
+        if(e.length > 5) {
+            if(e.includes(user))
+            found_check = true;
+            let fix = e.split("('").join("");
+            let fix2 = fix.split("('").join("");
+            user_line = fix2.split("','").join(",");
+        }
+    })
+
+    if(found_check == false) {
+        return "[x] Error, The user is currently not signed in!";
+    } else {
+        return user_line;
+    }
 }
