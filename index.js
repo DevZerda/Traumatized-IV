@@ -1,11 +1,16 @@
 // Files
 const Server = require("./server/main.js");
 const ServerFunc = require("./server/functions.js");
+
 const Crud = require("./Auth/crud.js");
 const eCrud = require("./Auth/functions.js");
+const Auth = require("./Auth/main.js");
+
 const Config = require("./Config/main.js");
 const eConfig = require("./Config/current.js");
+
 const Banners = require("./banners/main.js");
+
 const Extra = require("./Extra/main.js");
 const eExtra = require("./Extra/functions.js");
 
@@ -13,14 +18,27 @@ const eExtra = require("./Extra/functions.js");
 Server.svr.on('connection', async function(socket) {
     socket.setEncoding('utf8');
 
+    /*
+    *                           CONNECTING USER
+    */
+
     /* Getting Connecting User IP/PORT */
     Server.Socket_Info.UserIP = socket.remoteAddress.replace("::ffff:", "");
     Server.Socket_Info.UserPORT = socket.remotePort;
+
+    eExtra.set_Title("Traumatized IV | [API]: 1 | ", socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserIP + "\r\n");
 
     socket.write(Config.Colors.Clear);
+    
+    //* END
+
+
+    /*
+    *                            LOGIN SECTION
+    */
 
     //Get Username
     socket.write(Banners.login_b());
@@ -38,12 +56,33 @@ Server.svr.on('connection', async function(socket) {
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
-    socket.write(Banners.main_b());
-    socket.write("                   Welcome To Traumatized Bypass Land, Jeff\r\n");
+    let login_resp = Auth.login(username, password);
+    console.log(login_resp)
+    if(login_resp.includes("Successfully")) {
+        socket.write(Banners.main_b());
+        socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
+    } else {
+        socket.write(Config.Colors.Clear + "Error, Invalid Info!");
+        await eExtra.sleep(3000).then(() => {
+            socket.destroy();
+        })
+    }
+
+    //* END
+
+    /*
+    *                               GETTING USER INPUT
+    */
+
+
+    /* End Of User Connecting Process */
 
     while(true) {
+        let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
+        console.log(Current);
         let inputCMD = await ServerFunc.getInput(socket, Config.hostname(username))
         eConfig.GetCmd(inputCMD);
+        // eConfig.GetUserInfo();
 
         if(eConfig.CurrentCmd.Cmd === "help" || eConfig.CurrentCmd.Cmd === "?") {
             // socket.write(Banners.help_b());
@@ -57,8 +96,8 @@ Server.svr.on('connection', async function(socket) {
             let ip = eConfig.CurrentCmd.arg[1];
             let result = await eExtra.GeoIP(ip);
             socket.write(result);
-        } else if(eConfig.CurrentCmd.Cmd === "info") {
-
+        } else if(eConfig.CurrentCmd.Cmd === "myinfo") {
+            socket.write(eCrud.show_stats(Current[0]))
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             if(C.CurrentCmd.arg.length === 1) {
                 let tool = C.CurrentCmd.arg[1];
@@ -72,6 +111,7 @@ Server.svr.on('connection', async function(socket) {
             }
         }
 
+        //* END
         
 
         socket.on('end', function() {
