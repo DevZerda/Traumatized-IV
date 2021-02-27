@@ -73,10 +73,6 @@ exports.removeUser = function(user) {
 exports.userUpdate = function(user, new_level, new_maxtime, new_admin) { 
     let db = fs.appendFileSync("./db/sys/users.db", "utf8");
     let old_users = db.split("\n");
-     
-    let db_user = "";
-    let db_ip = "";
-    let db_pw = "";
 
     let new_db = "";
 
@@ -86,7 +82,7 @@ exports.userUpdate = function(user, new_level, new_maxtime, new_admin) {
                 let fix = e.split("('").join("");
                 let fix2 = fix.split("')").join("");
                 let info = fix2.split("','");
-                new_db += "('" + db_user + "','" + db_ip + "','" + db_pw + "','" + info[3] + "','" + info[4] + "','" + info[5] + "')\n";
+                new_db += "('" + info[0] + "','" + info[1] + "','" + info[2] + "','" + new_level + "','" + new_maxtime + "','" + new_admin + "')\n";
             } else {
                 new_db += e + "\n";
             }
