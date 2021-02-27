@@ -97,6 +97,30 @@ exports.userUpdate = function(user, new_level, new_maxtime, new_admin) {
     return "[+] User: " + user + " successfully updated!";
 }
 
+exports.LogSession = function(user, ip) {
+    let check_user = Crud.GetCurrentUser(user);
+    if(check_user === "[x] Error, The user is currently not signed in!") {
+        fs.appendFileSync("./db/sys/current.db", "('" + user + "','" + ip + "')\n");
+    } else {
+        return "[x] Error, This user is already signed in. One connection per user!";
+    }
+}
+
+exports.removeSession = function(userOrip) {
+    let db = fs.readFileSync("./db/sys/current.db", "utf8");
+    let old_users = db.split("\n");
+    
+    new_users = ""; 
+
+    old_users.forEach(e => {
+        if(e.length > 5) {
+            new_users = e + "\n";
+        }
+    })
+
+    fs.writeFileSync("./db/sys/current.db", new_users);
+}
+
 /*
 *@type: void
 */
@@ -104,7 +128,7 @@ exports.resetSessions = function() {
     fs.writeFileSync("./db/sys/current.db", "");
 }
 
-exports.GetCurrentUser = function() {
+exports.GetCurrentUser = function(user) {
     let current_db = fs.readFileSync("./db/sys/current.db", "utf8");
     let users = current_db.split("\n");
 
@@ -116,7 +140,7 @@ exports.GetCurrentUser = function() {
             if(e.includes(user))
             found_check = true;
             let fix = e.split("('").join("");
-            let fix2 = fix.split("('").join("");
+            let fix2 = fix.split("')").join("");
             user_line = fix2.split("','").join(",");
         }
     })
