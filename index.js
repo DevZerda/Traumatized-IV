@@ -17,14 +17,14 @@ const eExtra = require("./Extra/functions.js");
 
 Server.svr.on('connection', async function(socket) {
     socket.setEncoding('utf8');
+    eExtra.set_TerminalSize(40, 80, socket);
 
     /*
     *                           CONNECTING USER
     */
 
     /* Getting Connecting User IP/PORT */
-    Server.Socket_Info.UserIP = socket.remoteAddress.replace("::ffff:", "");
-    Server.Socket_Info.UserPORT = socket.remotePort;
+    Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
     eExtra.set_Title("Traumatized IV | [API]: 1 | ", socket)
 
@@ -76,45 +76,52 @@ Server.svr.on('connection', async function(socket) {
 
 
     /* End Of User Connecting Process */
-
-    while(true) {
+    socket.write(Config.hostname(username))
+    socket.on('data', async function(data) {
+        Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
+        let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
         let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
-        let inputCMD = await ServerFunc.getInput(socket, Config.hostname(username))
         eConfig.GetCmd(inputCMD);
         // eConfig.GetUserInfo();
 
         if(eConfig.CurrentCmd.Cmd === "help" || eConfig.CurrentCmd.Cmd === "?") {
-            // socket.write(Banners.help_b());
-        } else if(eConfig.CurrentCmd.Cmd === "clear") {
-            socket.write(Config.Colors.Clear + Banners.main_b());
+            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.help_list() + Config.hostname(Current[0]));
+        } else if(eConfig.CurrentCmd.Cmd === "clear" || eConfig.CurrentCmd.Cmd === "cls") {
+            socket.write(Config.Colors.Clear + Banners.main_b() + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "geo") {
             let ip = eConfig.CurrentCmd.arg[1];
             let result = await eExtra.GeoIP(ip)
-            socket.write(result);
+            socket.write(result + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "scan") {
             let ip = eConfig.CurrentCmd.arg[1];
             let result = await eExtra.GeoIP(ip);
-            socket.write(result);
+            socket.write(result + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "myinfo") {
-            socket.write(eCrud.show_stats(Current[0]))
+            socket.write(eCrud.show_stats(Current[0]) + Config.hostname(Current[0]))
         } else if(eConfig.CurrentCmd.Cmd === "stress") {
             console.log(eConfig.CurrentCmd.arg);
-            socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]));
+            socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
-            if(C.CurrentCmd.arg.length === 1) {
-                let tool = C.CurrentCmd.arg[1];
-                if(tool === "add") {
-                    socket.write(Crud.addUser(C.CurrentCmd.arg[2], C.CurrentCmd.arg[3], C.CurrentCmd.arg[4], C.CurrentCmd.arg[5], C.CurrentCmd.arg[6], C.CurrentCmd.arg[7]));
-                } else if(tool === "remove") {
-                    socket.write(Crud.removeUser(C.CurrentCmd.arg[2]));
-                } else if(tool === "update") {
-                    socket.write(Crud.userUpdate(C.CurrentCmd.arg[2], C.CurrentCmd.arg[3], C.CurrentCmd.arg[4], C.CurrentCmd.arg[5]));
+            if(eCrud.isAdmin(Current[0])) {
+                if(eConfig.CurrentCmd.arg.length === 1) {
+                    let tool = eConfig.CurrentCmd.arg[1];
+                    if(tool === "add") {
+                        socket.write(Crud.addUser(eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4], eConfig.CurrentCmd.arg[5], eConfig.CurrentCmd.arg[6], eConfig.CurrentCmd.arg[7]) + Config.hostname(""));
+                    } else if(tool === "remove") {
+                        socket.write(Crud.removeUser(eConfig.CurrentCmd.arg[2]) + Config.hostname(Current[0]));
+                    } else if(tool === "update") {
+                        socket.write(Crud.userUpdate(eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4], eConfig.CurrentCmd.arg[5]) + Config.hostname(Current[0]));
+                    } else {
+                        socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(Current[0]));
+                    }
                 }
+            } else {
+                socket.write("[x] Error, You aren't admin to use this command!\r\n" + Config.hostname(Current[0]));
             }
         } else {
-            socket.write("[x] Error, No command found!\r\n")
+            socket.write("[x] Error, No command found!\r\n" + Config.hostname(Current[0]));
         }
-
+    })
         
         eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
 
@@ -122,11 +129,11 @@ Server.svr.on('connection', async function(socket) {
         
 
         socket.on('end', function() {
+            Crud.removeSession(Server.Socket_Info.UserIP);
             console.log('Closing connection with the client\r\n');
         });
 
         socket.on('error', function(err) {
             console.log("[NODEJS SERVER ERROR(IGNORE)]: " + err + "\r\n");
         });
-    }
 });
