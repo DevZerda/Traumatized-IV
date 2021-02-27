@@ -73,3 +73,98 @@
 [Level]: 5 | [Admin]: 1
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52594
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52604
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52616
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52625
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52625
+[Level]: 5 | [Admin]: 1
+[Cmd]: l | [FullCmd]: l
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52625
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52625
+[Level]: 5 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52625
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52644
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: Jeff | [IP]: 127.0.0.1:52654
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52662
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52662
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 120 UDP
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52676
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52676
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 120 UDP
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52702
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52702
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 120 UDP
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52729
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52729
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 60 UDP
+
+[LOG]: CMD | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:52729
+[Level]: 5 | [Admin]: 1
+[Cmd]: geo | [FullCmd]: geo 70.70.70.72
+
