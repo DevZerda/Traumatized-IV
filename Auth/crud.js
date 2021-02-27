@@ -71,7 +71,7 @@ exports.removeUser = function(user) {
 *@type: [<string>]
 */
 exports.userUpdate = function(user, new_level, new_maxtime, new_admin) { 
-    let db = fs.appendFileSync("./db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./db/sys/users.db", "utf8");
     let old_users = db.split("\n");
 
     let new_db = "";
@@ -89,8 +89,55 @@ exports.userUpdate = function(user, new_level, new_maxtime, new_admin) {
         }
     });
 
-    fs.appendFileSync("./db/sys/users.db", new_db);
+    fs.writeFileSync("./db/sys/users.db", new_db);
+    console.log("User: " + user + " updated ip!")
     return "[+] User: " + user + " successfully updated!";
+}
+
+exports.changeIP = function(userOrip, ip) {
+    let old_db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let users = old_db.split("\n");
+
+    let new_db = "";
+
+    users.forEach(e => {
+        if(e.length > 5) {
+            if(e.includes(userOrip)) {
+                let fix = e.split("('").join("");
+                let fix2 = fix.split("')").join("");
+                let info = fix2.split("','");
+                new_db += "('" + info[0] + "','" + ip + "','" + info[2] + "','" + info[3] + "','" + info[4] + "','" + info[5] + "')\n";
+            } else {
+                new_db += e + "\n";
+            }
+        }
+    })
+
+    fs.writeFileSync("./db/sys/users.db", new_db);
+    return "[+] User: " + userOrip + "'s IP successfully updated!";
+}
+
+exports.changePassword = function(user, new_pw) {
+    let old_db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let users = old_db.split("\n");
+
+    let new_db = "";
+
+    users.forEach(e => {
+        if(e.length > 5) {
+            if(e.includes(user)) {
+                let fix = e.split("('").join("");
+                let fix2 = fix.split("')").join("");
+                let info = fix2.split("','");
+                new_db += "('" + user + "','" + info[1] + "','" + new_pw + "','" + info[3] + "','" + info[4] + "','" + info[5] + "')\n";
+            } else {
+                new_db += e + "\n";
+            }
+        }
+    })
+
+    fs.writeFileSync("./db/sys/users.db", new_db);
+    return "[+] User: " + user + "'s password successfully updated!";
 }
 
 exports.LogSession = function(user, ip) {
@@ -110,7 +157,10 @@ exports.removeSession = function(userOrip) {
 
     old_users.forEach(e => {
         if(e.length > 5) {
-            new_users = e + "\n";
+            if(!e.includes(userOrip))
+            {
+                new_users = e + "\n";
+            }
         }
     })
 
