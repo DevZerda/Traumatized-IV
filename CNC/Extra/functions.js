@@ -40,7 +40,7 @@ exports.log_action = function(log_type, user, ip) {
 *@type: void
 */
 exports.log_to_file = function(output) {
-    fs.appendFileSync("./db/sys/logs.db", output);
+    fs.appendFileSync("../db/sys/logs.db", output);
 }
 
 exports.log_attack = function(user, ip, port, time, method) {
