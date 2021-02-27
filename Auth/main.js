@@ -16,11 +16,13 @@ exports.login = function(user, pass, ip) {
         return "[x] Error, Username or password seem to be incorrect!. Try again";
     }
 
-    let db_user = get_user.split(",")[0];
-    let db_pw = get_user.split(",")[2];
+    let info = get_user.split(",");
 
-    if(user === db_user || pass === db_pw) {
+    if(user === info[0] || pass === info[2]) {
         Crud.LogSession(user, ip)
+        if(info[1] === "none") {
+            Crud.changeIP(user, ip);
+        }
         return "[+] Successfully logged in, Welcome: " + user;
     } else {
         return "[x] Error, Username or password seem to be incorrect!. Try again";
