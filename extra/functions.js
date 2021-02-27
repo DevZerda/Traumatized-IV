@@ -40,7 +40,7 @@ exports.log_action = function(log_type, user, ip) {
 *@type: void
 */
 exports.log_to_file = function(output) {
-    fs.appendFileSync("./db/logs.db", output);
+    fs.appendFileSync("./db/sys/logs.db", output);
 }
 
 exports.log_attack = function(user, ip, port, time, method) {
@@ -95,7 +95,8 @@ exports.set_cursor = function(row, column, socket) {
 *@type: (Promise[void])
 */
 exports.set_TerminalSize = function(row, col, socket) {
-    socket.write("\033[" + row + ";" + col + ";39t");
+    socket.write("\033[8;" + row + ";" + col + "t");
+    // socket.write("\033[8;40;81t");
 }
 
 exports.set_Title = function(t, socket) {
