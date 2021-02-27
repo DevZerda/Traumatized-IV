@@ -1,28 +1,75 @@
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: jeff | [IP]: 127.0.0.1:56825
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]:  | [IP]: 127.0.0.1:50995
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:51151
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: rg | [IP]: 127.0.0.1:51161
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: jeff | [IP]: 127.0.0.1:56885
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: Jeff | [IP]: 127.0.0.1:51167
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: jeff | [IP]: 127.0.0.1:56926
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: jeff | [IP]: 127.0.0.1:51185
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: Jeff | [IP]: 127.0.0.1:57032
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: jeff | [IP]: 127.0.0.1:51195
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: Jeff | [IP]: 127.0.0.1:57050
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: jeff | [IP]: 127.0.0.1:51205
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: Jeff | [IP]: 127.0.0.1:57054
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: Jeff | [IP]: 127.0.0.1:51207
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
-[LOG]: Connecting | [Timestamp]: 2/26/2021
-[User]: Jeff | [IP]: 127.0.0.1:57125
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: f | [IP]: 127.0.0.1:51217
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: jeff | [IP]: 127.0.0.1:51224
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:51230
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:51245
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:51250
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:51340
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: nano | [IP]: 127.0.0.1:51684
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
