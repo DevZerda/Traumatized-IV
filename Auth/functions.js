@@ -123,3 +123,14 @@ exports.CurrentOnlineCount = function() {
 
     return users.length-1;
 }
+
+exports.show_stats = function(user) {
+    let get_user = Crud.User(user);
+    let info = get_user.split(",");
+
+    let output = "[User]: " + info[0] + " | [IP]: " + info[1] + "\r\n";
+    output += "[Level]: " + info[3] + " | [Maxtime]: " + info[4] + "\r\n";
+    output += "[Admin]: " + info[5] == 1 ? "True":"False"
+
+    return output;
+}
