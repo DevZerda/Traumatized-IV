@@ -26,3 +26,8 @@ server.listen(port, function() {
     console.log("Server started! => "  + port);
     Crud.resetSessions();
 });
+
+exports.setInfo = function(ip, port) {
+    this.Socket_Info.UserIP = ip;
+    this.Socket_Info.UserPORT = port;
+}
