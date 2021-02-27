@@ -31,3 +31,5 @@ exports.Colors = {
     "Background_Reset": "\x1b[49m",
     "Clear": "\033[2J\033[1;1H"
 }
+
+exports.API_1 = "http://194.87.68.129/api.php?host=";
