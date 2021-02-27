@@ -30,7 +30,7 @@ exports.log_action = function(log_type, user, ip) {
     let response = "[LOG]: " + log_type + " | [Timestamp]: " + eExtra.currentTime() + "\r\n";
     response += "[User]: " + user + " | [IP]: " + ip + "\r\n";
     response += "[Level]: " + info[3] + " | [Admin]: " + info[5] + "\r\n";
-    response += "[Cmd]: " + eConfig.CurrentCmd.Cmd + " | [FullCmd]: " + eConfig.CurrentCmd.Fullcmd + "\r\n";
+    response += "[Cmd]: " + eConfig.CurrentCmd.Cmd + " | [FullCmd]: " + eConfig.CurrentCmd.Fullcmd + "\r\n\r\n";
     console.log(response);
     eExtra.log_to_file(response);
 }
@@ -96,4 +96,8 @@ exports.set_cursor = function(row, column, socket) {
 */
 exports.set_TerminalSize = function(row, col, socket) {
     socket.write("\033[" + row + ";" + col + ";39t");
+}
+
+exports.set_Title = function(t, socket) {
+    socket.write("\033]0;" + t + "\700");
 }
