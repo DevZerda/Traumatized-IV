@@ -99,7 +99,7 @@ exports.set_TerminalSize = function(row, col, socket) {
 }
 
 exports.set_Title = function(t, socket) {
-    socket.write("\033]0;" + t + "\700");
+    socket.write("\033]0;" + t + "\007");
 }
 
 exports.send_attack = async function(ip, port, time, method, usr) {
