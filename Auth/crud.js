@@ -9,7 +9,8 @@ const Crud = require("./crud.js");
 *@type: [<string>]
 */
 exports.User = function(user) {
-    let db = fs.readFileSync("./db/users.db", "utf8");
+    let db = fs.readFileSync("./db/sys/users.db", "utf8");
+    
     let users = db.split("\n");
 
     let found_check = false;
@@ -40,7 +41,7 @@ exports.User = function(user) {
 exports.addUser = function(user, ip, password, level, maxtime, admin) {
     let get_user = Crud.User(user);
     if(get_user === "[x] Error, No user found!") {
-        fs.appendFile("./db/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
+        fs.appendFile("./db/sys/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
         return "[+] User: " + user + " successfully added!";
     } else {
         return "[x] Error, This username is taken, choose another username!";
@@ -52,7 +53,7 @@ exports.addUser = function(user, ip, password, level, maxtime, admin) {
 *@type: [<string>]
 */
 exports.removeUser = function(user) {
-    let db = fs.appendFileSync("./db/users.db", "utf8");
+    let db = fs.appendFileSync("./db/sys/users.db", "utf8");
     let users = db.split("\n");
 
     users.forEach(e => {
@@ -69,7 +70,7 @@ exports.removeUser = function(user) {
 *@type: [<string>]
 */
 exports.userUpdate = function(user, new_level, new_maxtime, new_admin) { 
-    let db = fs.appendFileSync("./db/users.db", "utf8");
+    let db = fs.appendFileSync("./db/sys/users.db", "utf8");
     let old_users = db.split("\n");
      
     let db_user = "";
@@ -91,7 +92,7 @@ exports.userUpdate = function(user, new_level, new_maxtime, new_admin) {
         }
     });
 
-    fs.appendFileSync("./db/users.db", new_db);
+    fs.appendFileSync("./db/sys/users.db", new_db);
     return "[+] User: " + user + " successfully updated!";
 }
 
