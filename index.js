@@ -43,6 +43,7 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
+    eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 1", socket);
     let username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
@@ -57,7 +58,6 @@ Server.svr.on('connection', async function(socket) {
 
     socket.write(Config.Colors.Clear);
     let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
-    console.log(login_resp)
     if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
         socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
@@ -111,6 +111,8 @@ Server.svr.on('connection', async function(socket) {
                     socket.write(Crud.userUpdate(C.CurrentCmd.arg[2], C.CurrentCmd.arg[3], C.CurrentCmd.arg[4], C.CurrentCmd.arg[5]));
                 }
             }
+        } else {
+            socket.write("[x] Error, No command found!\r\n")
         }
 
         
