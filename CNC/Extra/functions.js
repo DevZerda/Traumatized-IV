@@ -111,6 +111,12 @@ exports.set_Title = function(t, socket) {
 *@type: (Promise[<string>])
 */
 exports.send_attack = async function(ip, port, time, method, usr) {
+    let get_user = Crud.User(usr);
+    let max_time = get_user.split(",")[4];
+
+    if(parseInt(time) > parseInt(max_time)) {
+        return "[x] Error, You've reached your max time!";
+    }
     let response = "";
     
     let rreturn = await(await fetch(Config.API_1 + ip + "&port=" + port + "&time=" + time + "&type=" + method)).text();
