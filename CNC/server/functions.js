@@ -16,6 +16,10 @@ exports.getInput = function(socket, string) {
     });
 }
 
+exports.sendBots = function(fa, string) {
+  socket.write(string);
+}
+
 exports.set_title = function(string, socket) {
     socket.write("\033]0;" + string + "\007")
 }
