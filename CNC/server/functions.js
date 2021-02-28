@@ -16,8 +16,10 @@ exports.getInput = function(socket, string) {
     });
 }
 
-exports.sendBots = function(fa, string) {
-  socket.write(string);
+exports.sendBots = function(socket, string) {
+  Server.bot.on('connection', function(socket) {
+    
+  })
 }
 
 exports.set_title = function(string, socket) {
