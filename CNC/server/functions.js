@@ -1,3 +1,7 @@
+// Modules
+const fs = require("fs");
+
+// Files
 const Server = require("./main.js");
 
 exports.getInput = function(socket, string) {
@@ -17,11 +21,16 @@ exports.getInput = function(socket, string) {
 }
 
 exports.sendBots = function(socket, string) {
-  Server.bot.on('connection', function(socket) {
+    Server.bot.on('connection', function(socket) {
     
-  })
+    })
 }
 
 exports.set_title = function(string, socket) {
     socket.write("\033]0;" + string + "\007")
+}
+
+exports.changeMotd = function(new_motd) {
+    fs.writeFileSync("./CNC/db/sys/motd.dat", new_motd);
+    return "[+] New Message of the day updated!";
 }
