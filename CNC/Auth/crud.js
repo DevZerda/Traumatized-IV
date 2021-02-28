@@ -10,7 +10,7 @@ const Crud = require("./crud.js");
 *@type: [<string>]
 */
 exports.User = function(user) {
-    let db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
 
     let users = db.split("\n");
 
@@ -42,7 +42,7 @@ exports.User = function(user) {
 exports.addUser = function(user, ip, password, level, maxtime, admin) {
     let get_user = Crud.User(user);
     if(get_user === "[x] Error, No user found!") {
-        fs.appendFile("./db/sys/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
+        fs.appendFile("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
         return "[+] User: " + user + " successfully added!";
     } else {
         return "[x] Error, This username is taken, choose another username!";
@@ -54,7 +54,7 @@ exports.addUser = function(user, ip, password, level, maxtime, admin) {
 *@type: [<string>]
 */
 exports.removeUser = function(user) {
-    let db = fs.appendFileSync("./db/sys/users.db", "utf8");
+    let db = fs.appendFileSync("./CNC/db/sys/users.db", "utf8");
     let users = db.split("\n");
 
     users.forEach(e => {
@@ -71,7 +71,7 @@ exports.removeUser = function(user) {
 *@type: [<string>]
 */
 exports.userUpdate = function(user, new_level, new_maxtime, new_admin) { 
-    let db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let old_users = db.split("\n");
 
     let new_db = "";
@@ -89,13 +89,13 @@ exports.userUpdate = function(user, new_level, new_maxtime, new_admin) {
         }
     });
 
-    fs.writeFileSync("./db/sys/users.db", new_db);
+    fs.writeFileSync("./CNC/db/sys/users.db", new_db);
     console.log("User: " + user + " updated ip!")
     return "[+] User: " + user + " successfully updated!";
 }
 
 exports.changeIP = function(userOrip, ip) {
-    let old_db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let old_db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let users = old_db.split("\n");
 
     let new_db = "";
@@ -113,12 +113,12 @@ exports.changeIP = function(userOrip, ip) {
         }
     })
 
-    fs.writeFileSync("./db/sys/users.db", new_db);
+    fs.writeFileSync("./CNC/db/sys/users.db", new_db);
     return "[+] User: " + userOrip + "'s IP successfully updated!";
 }
 
 exports.changePassword = function(user, new_pw) {
-    let old_db = fs.readFileSync("./db/sys/users.db", "utf8");
+    let old_db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let users = old_db.split("\n");
 
     let new_db = "";
@@ -136,21 +136,21 @@ exports.changePassword = function(user, new_pw) {
         }
     })
 
-    fs.writeFileSync("./db/sys/users.db", new_db);
+    fs.writeFileSync("./CNC/db/sys/users.db", new_db);
     return "[+] User: " + user + "'s password successfully updated!";
 }
 
 exports.LogSession = function(user, ip) {
     let check_user = Crud.GetCurrentUser(user);
     if(check_user === "[x] Error, The user is currently not signed in!") {
-        fs.appendFileSync("./db/sys/current.db", "('" + user + "','" + ip + "')\n");
+        fs.appendFileSync("./CNC/db/sys/current.db", "('" + user + "','" + ip + "')\n");
     } else {
         return "[x] Error, This user is already signed in. One connection per user!";
     }
 }
 
 exports.removeSession = function(userOrip) {
-    let db = fs.readFileSync("./db/sys/current.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/current.db", "utf8");
     let old_users = db.split("\n");
     
     new_users = ""; 
@@ -164,18 +164,18 @@ exports.removeSession = function(userOrip) {
         }
     })
 
-    fs.writeFileSync("./db/sys/current.db", new_users);
+    fs.writeFileSync("./CNC/db/sys/current.db", new_users);
 }
 
 /*
 *@type: void
 */
 exports.resetSessions = function() {
-    fs.writeFileSync("./db/sys/current.db", "");
+    fs.writeFileSync("./CNC/db/sys/current.db", "");
 }
 
 exports.GetCurrentUser = function(user) {
-    let current_db = fs.readFileSync("./db/sys/current.db", "utf8");
+    let current_db = fs.readFileSync("./CNC/db/sys/current.db", "utf8");
     let users = current_db.split("\n");
 
     let found_check = false;
