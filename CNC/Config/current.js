@@ -2,6 +2,8 @@
 const Crud = require("../Auth/crud.js");
 const C = require("./current.js");
 
+exports.clients = [];
+
 exports.CurrentCmd = {
     "Cmd": "",
     "arg": [],
