@@ -140,6 +140,10 @@ Server.svr.on('connection', async function(socket) {
         });
 });
 
+/*
+*                                   BOT SECTION
+*/
+
 Server.bot.on('connection', function(socket) {
     Server.setBotInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
