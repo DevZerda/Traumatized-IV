@@ -63,6 +63,7 @@ Server.svr.on('connection', async function(socket) {
 
     socket.write(Config.Colors.Clear);
     let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
+    console.log(login_resp);
     if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
         socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
