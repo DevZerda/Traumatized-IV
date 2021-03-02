@@ -50,6 +50,7 @@ Server.svr.on('connection', async function(socket) {
     eExtra.set_cursor(9, 37, socket);
     eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 1", socket);
     let username = await ServerFunc.getInput(socket, "");
+    console.log(username);
 
     socket.write(Config.Colors.Clear);
     eExtra.log_action("Connecting", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
