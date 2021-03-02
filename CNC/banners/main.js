@@ -87,3 +87,12 @@ exports.admin_list = function() {
     admin_b += "     ╚══════════════════════╩═════════════════════════════════════════════╝\r\n";
     return admin_b;
 }
+
+exports.statistics = function() {
+    let stats = "    ╔══════════════════╗   ╔══════════════════════╗   ╔══════════════════╗\r\n";
+    stats += "    ║   Total Users    ║   ║  Total Online Users  ║   ║  Total Attacks   ║\r\n";
+    stats += "    ╠══════════════════╣   ╠══════════════════════╣   ╠══════════════════╣\r\n";
+    stats += "    ║        0         ║   ║           0          ║   ║        0         ║\r\n";
+    stats += "    ╚══════════════════╝   ╚══════════════════════╝   ╚══════════════════╝\r\n";
+    return stats;
+}
