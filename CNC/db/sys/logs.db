@@ -1307,3 +1307,8 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 1 | [Admin]: 0
 [Cmd]: help | [FullCmd]: help
 
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:29061
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
