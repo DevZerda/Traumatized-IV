@@ -11,7 +11,7 @@ const Crud = require("./crud.js");
 */
 exports.User = function(user) {
     let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
-
+    console.log(db);
     let users = db.split("\n");
 
     let found_check = false;
