@@ -10,7 +10,7 @@ const Crud = require("../Auth/crud.js");
 const ServerFunc = require("./functions");
 
 // Extrak
-const port = 455;
+const port = 624;
 const server = new Net.Server();
 const gay = new Net.Server();
 exports.Socket_Info = {
