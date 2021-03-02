@@ -16,14 +16,23 @@ while(true) {
         wait_60sec_to_put_back_up();
     }
     $ticks++;
+    sleep(1);
 }
 
 function wait_60sec_to_put_back_up() {
     sendDiscord("CNC went down!");
     sleep(60);
     echo "Starting CNC....!\r\n";
-    exec("screen -dmS cnc node cnc.js");
-    sendDiscord("CNC Started!!");
+    $cnc = "";
+    $lul = "";
+    $result = exec("pgrep -fl cnc", $cnc, $lul);
+    if(strpos($check_cnc, "node") !== false) {
+        echo "Noticed the CNC is back up so i didnt try!...\r\n";
+        sendDiscord("CNC started already");
+    } else {
+        exec("screen -dmS cnc node cnc.js");
+        sendDiscord("CNC Started!!");
+    }
 }
 
 function sendDiscord($log) {
