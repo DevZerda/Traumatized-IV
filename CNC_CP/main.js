@@ -1,35 +1,46 @@
 // Modules
 const fs = require("fs");
-const exec = require("child_process");
+const { exec } = require('child_process');
 
 // Files
 const Crud = require("../CNC/Auth/crud.js");
+const CNC_Func = require("./main.js");
 
-exports.cnc_toggle = function(switc) {
+exports.cnc_toggle = async function(switc) {
     if(switc === "on") {
-        Turn_CNC_On();
+        await CNC_Func.Turn_CNC_On();
+    } else if (switc === "off") {
+        await CNC_Func.Turn_CNC_Off();
     } else {
-        Turn_CNC_Off();
+        console.log("[x] Error, Invalid Option...!");
     }
 }
 
-exports.restart_cnc = function() {
-    this.Turn_CNC_Off();
-    this.Turn_CNC_On();
+exports.restart_cnc = async function() {
+    await CNC_Func.Turn_CNC_Off();
+    await CNC_Func.Turn_CNC_On();
 }
 
-exports.Turn_CNC_On = function() {
-    exec("screen -dmS cnc node cnc.js", function(error, stdout, stderr) {
-        if(!error && !stderr) {
-            console.log("[+] CNC is now starting up on port 455!");
-        }
-    })
+exports.Turn_CNC_On = async function() {
+    exec('screen -dmS cnc node cnc.js', function (error, stdout, stderr) {
+    if (error) {
+      console.log(error.stack);
+      console.log('Error code: '+error.code);
+      console.log('Signal received: '+error.signal);
+    }
+    console.log('Child Process STDOUT: '+stdout);
+    console.log('[+] CNC starting up....!\r\n');
+  });
 }
 
-exports.Turn_CNC_Off = function() {
-    exec("screen -r cnc -X quit", function(error, stdout, stderr) {
-        if(!stderr && !error) {
-            console.log("[+] CNC is turning off...");
-        }
-    })
+exports.Turn_CNC_Off = async function() {    
+    exec('screen -r cnc -X quit', function (error, stdout, stderr) {
+    if (error) {
+      console.log(error.stack);
+      console.log('Error code: '+error.code);
+      console.log('Signal received: '+error.signal);
+    }
+    console.log('Child Process STDOUT: '+stdout);
+    console.log('[+] CNC is shutting down....!\r\n');
+  });
 }
