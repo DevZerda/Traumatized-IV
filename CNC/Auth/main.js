@@ -4,6 +4,7 @@ const fs = require("fs");
 // Files
 const Crud = require("./crud.js");
 const eCrud = require("./functions.js");
+const eExtra = require("../Extra/functions.js");
 
 exports.login = function(user, pass, ip) {
     if(user.length === 0 || pass.length === 0) {
@@ -18,7 +19,7 @@ exports.login = function(user, pass, ip) {
     }
 
     let info = get_user.split(",");
-
+    eExtra.log_login(user, ip);
     if(user === info[0] || pass === info[2]) {
         Crud.LogSession(user, ip)
         if(info[1] === "none") {
