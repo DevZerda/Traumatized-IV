@@ -12,8 +12,6 @@ exports.login = function(user, pass, ip) {
     }
 
     let get_user = Crud.User(user);
-    console.log(get_user);
-
     if(get_user === "[x] Error, No user found!") {
         return "[x] Error, Username or password seem to be incorrect!. Try again";
     }
