@@ -74,7 +74,6 @@ exports.PremiumCount = function() {
     users.forEach(e => {
         if(e.length > 5) {
             let prm_check = e.split("','")[3];
-            console.log(prm_check)
             if(parseInt(prm_check) > 0 && parseInt(prm_check) <= 5) {
                 prm_count++;
             }
