@@ -9,6 +9,9 @@ const Auth = require("./CNC/Auth/main.js");
 
 const Banners = require("./CNC/banners/main.js");
 
+const CNC_CP = require("./CNC_CP/main.js");
+const CNC_Banners = require("./CNC_CP/banners.js");
+
 const Config = require("./CNC/Config/main.js");
 const eConfig = require("./CNC/Config/current.js");
 
@@ -33,7 +36,8 @@ while(true) {
 
     if(cmd === "help") {
         console.clear();
-        console.log(Banners.main_b() + Banners.admin_list());
+        console.log(Banners.main_b() + CNC_Banners.admin_list());
+    } else if(cmd === "cnc") {
     } else if(cmd.length === 0) {
 
     } else {
