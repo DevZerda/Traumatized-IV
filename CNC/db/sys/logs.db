@@ -1,0 +1,1309 @@
+[LOG]: Connecting | [Timestamp]: 2/27/2021
+[User]: Jeff | [IP]: 127.0.0.1:50382
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.131:64306
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.131:64306
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:50382
+[Level]: undefined | [Admin]: undefined
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:50385
+[Level]: undefined | [Admin]: undefined
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: orphan | [IP]: 173.54.201.123:50391
+[Level]: undefined | [Admin]: undefined
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.131:64225
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.131:64225
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:50409
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin add Orphan none isaskid 1 1200 0
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:50409
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin add Orphan none isaskid 1 1200 0
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:50446
+[Level]: 1 | [Admin]: 0
+[Cmd]: p[ | [FullCmd]: p[
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: orphan | [IP]: 173.54.201.123:51432
+[Level]: undefined | [Admin]: undefined
+[Cmd]: p[ | [FullCmd]: p[
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]:  | [IP]: 80.202.48.148:64804
+[Level]: 1 | [Admin]: 0
+[Cmd]: p[ | [FullCmd]: p[
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: am | [IP]: 80.202.48.148:64814
+[Level]: 1 | [Admin]: 0
+[Cmd]: p[ | [FullCmd]: p[
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: am | [IP]: 80.202.48.148:64814
+[Level]: 1 | [Admin]: 0
+[Cmd]: p[ | [FullCmd]: p[
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]:  | [IP]: 173.54.201.123:52452
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 73.61.13.131:64339
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 73.61.13.131:64339
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:53036
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:53036
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.131:64381
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.131:64381
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.105:40364
+[Level]: 5 | [Admin]: 1
+[Cmd]: method | [FullCmd]: method
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.105:40364
+[Level]: 5 | [Admin]: 1
+[Cmd]: method | [FullCmd]: method
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.105:40436
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.13.105:40436
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.73 | [IP]: 77.161.229.239:54652
+[Level]: undefined | [Admin]: undefined
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Strafe | [IP]: 77.161.229.239:54673
+[Level]: undefined | [Admin]: undefined
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: -Strafe | [IP]: 77.161.229.239:54760
+[Level]: undefined | [Admin]: undefined
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: HuncServ Huncho17 | [IP]: 192.99.181.235:51919
+[Level]: undefined | [Admin]: undefined
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: HuncServ | [IP]: 192.99.181.235:51921
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]:  | [IP]: 192.99.181.235:51924
+[Level]: 1 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 70.117.199.168:52918
+[Level]: undefined | [Admin]: undefined
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 70.117.199.168:52958
+[Level]: undefined | [Admin]: undefined
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: namo | [IP]: 127.0.0.1:60742
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: namo | [IP]: 127.0.0.1:60742
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 127.0.0.1:60744
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 127.0.0.1:60744
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: am | [IP]: 80.202.48.148:52855
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: am | [IP]: 80.202.48.148:52855
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 70.117.199.168:53630
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: flowz | [IP]: 172.83.45.155:23703
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 71.220.17.72 80 1000 STD
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: flowz | [IP]: 172.83.45.155:23704
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 71.220.17.72 80 1000 STD
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: flowz | [IP]: 172.83.45.155:23704
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 71.220.17.72 80 1000 STD
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: flowz | [IP]: 172.83.45.155:23705
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 71.220.17.72 80 1000 STD
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]:  | [IP]: 73.61.14.108:9842
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.14.108:9844
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: nano | [IP]: 73.61.14.108:9844
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: am | [IP]: 80.202.48.148:61187
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: am | [IP]: 80.202.48.148:61187
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:51318
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 85.166.246.66 80 100 STD
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: Orphan | [IP]: 173.54.201.123:51318
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 85.166.246.66 80 100 STD
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: flowz | [IP]: 172.83.45.155:23703
+[Level]: undefined | [Admin]: undefined
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:51275
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:52463
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:52661
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Harvlol | [IP]: 51.89.208.88:52668
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:52769
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]:  | [IP]: 51.89.208.88:52830
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]:  | [IP]: 51.89.208.88:52850
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Jeff | [IP]: 193.89.248.56:57249
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: jeff | [IP]: 193.89.248.56:57254
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: CMD | [Timestamp]: 2/28/2021
+[User]: jeff | [IP]: 193.89.248.56:57254
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: Jeff | [IP]: 193.89.248.56:57268
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 2/28/2021
+[User]: aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa | [IP]: 193.89.248.56:58289
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 51.89.208.88:55182
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: am | [IP]: 80.202.48.148:50615
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: am | [IP]: 80.202.48.148:50615
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 80.202.48.148:50615
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 51.89.208.88:55230
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 51.89.208.88:55234
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: harvlol | [IP]: 51.89.208.88:55239
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 51.89.208.88:55248
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:60650
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 51.89.208.88:60655
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 73.61.14.108:10036
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 51.89.208.88:60681
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 51.89.208.88:60681
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 73.61.14.108:9852
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 73.61.14.108:9852
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 79.68.59.76:60692
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 79.68.59.76:60732
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 79.68.59.76:60757
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: Harvlol | [IP]: 79.68.59.76:60757
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 63.251.20.100 21 60 TCP
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 64.94.100.94:60803
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 64.94.100.94:60829
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 144.172.67.111:60855
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 144.172.67.111:60865
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 79.68.59.76:60909
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 212.97.250.82:49385
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 212.97.250.82:49385
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 95.174.65.6:37482
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 95.174.65.6:43810
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 95.174.65.6:43810
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 73.61.14.108:9925
+[Level]: 1 | [Admin]: 0
+[Cmd]: ls | [FullCmd]: ls
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 73.61.14.108:9837
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 73.61.14.108:9837
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 95.174.65.6:43810
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 95.174.65.6:39852
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: chkn | [IP]: 95.174.65.6:43810
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 95.174.65.6:58662
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 95.174.65.6:60484
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: nano | [IP]: 127.0.0.1:40344
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]:  | [IP]: 77.161.229.239:63287
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: Strafe | [IP]: 77.161.229.239:63311
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: -Strafe | [IP]: 77.161.229.239:63345
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/1/2021
+[User]: blatch | [IP]: 99.179.144.86:8325
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/1/2021
+[User]: blatch | [IP]: 99.179.144.86:8325
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 173.54.201.123:55288
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 173.54.201.123:55288
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: Orphan | [IP]: 173.54.201.123:55292
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: Orphan | [IP]: 173.54.201.123:55292
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 73.61.13.176:29846
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 69.232.152.185 80 100 UDP
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 73.61.13.176:30186
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 73.61.13.176:29958
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 73.61.13.176:30064
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 73.61.13.176:30156
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 73.61.13.176:29998
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 73.61.13.176:29998
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:55289
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:55454
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: chkn | [IP]: 51.89.208.88:55473
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: chkn | [IP]: 51.89.208.88:55473
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 79.68.59.76:56095
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: blatch | [IP]: 99.179.144.86:10389
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: blatch | [IP]: 79.68.59.76:56103
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 79.68.59.76:56103
+[Level]: 1 | [Admin]: 0
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 79.68.59.76:56105
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 79.68.59.76:56105
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:62781
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:62791
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:62795
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:62802
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: chkn | [IP]: 127.0.0.1:60982
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: chkn | [IP]: 127.0.0.1:60982
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:62810
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 51.89.208.88:65051
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 51.89.208.88:65051
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 51.89.208.88:60909
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: nano | [IP]: 51.89.208.88:60909
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: chkn | [IP]: 51.89.208.88:60941
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]: chkn | [IP]: 51.89.208.88:60941
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:60961
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:60961
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:60971
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:60971
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]: SSH-2.0-PuTTY_Release_0.74 | [IP]: 51.89.208.88:60977
+[Level]: undefined | [Admin]: undefined
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:60985
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 51.89.208.88:61148
+[Level]: 1 | [Admin]: 0
+[Cmd]: geo | [FullCmd]: geo 90.204.186.107
+
+[LOG]: Connecting | [Timestamp]: 3/2/2021
+[User]:  | [IP]: 79.68.59.76:61308
+[Level]: 1 | [Admin]: 0
+[Cmd]: geo | [FullCmd]: geo 90.204.186.107
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 99.179.144.86:10901
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: blatch | [IP]: 99.179.144.86:10901
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: blatch | [IP]: 99.179.144.86:10901
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 99.179.144.86:10901
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60388
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60389
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60399
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60399
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60406
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60413
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60571
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60575
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60581
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60581
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60603
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60603
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60611
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60675
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60675
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60773
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60773
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:60805
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60809
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60811
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60812
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60812
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60820
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60821
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60855
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60905
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60954
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60977
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60977
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60985
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60985
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60993
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:60997
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:61012
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:61035
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:61035
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 79.68.59.76:61081
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 79.68.59.76:61088
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 79.68.59.76:61099
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 79.68.59.76:62445
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62506
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62508
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62512
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62515
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62515
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62515
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62531
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62536
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62540
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:62555
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:62555
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62555
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62555
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:62575
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: chkn | [IP]: 51.89.208.88:62575
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62607
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62607
+[Level]: 1 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: HuncServ | [IP]: 192.99.181.235:55579
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: HuncServ | [IP]: 192.99.181.235:55579
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 24.207.135.136 | [IP]: 9306
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 24.207.135.136 9306 1000 LDAP
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 73.234.184.215 | [IP]: 9306
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 73.234.184.215 9306 1000 LDAP
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: Orphan | [IP]: 173.54.201.123:60627
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Orphan | [IP]: 173.54.201.123:60627
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 73.234.184.215 | [IP]: 9306
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 73.234.184.215 9306 1000 NTP
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 76.66.143.21 | [IP]: 3979
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 76.66.143.21 3979 1000 NTP
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: Orphan | [IP]: 173.54.201.123:61091
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 76.66.143.21 3979 1000 NTP
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Orphan | [IP]: 173.54.201.123:61091
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 76.66.143.21 3979 1000 NTP
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 69.162.108.171 | [IP]: 443
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 69.162.108.171 443 60 UDP
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]:  | [IP]: 80
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 74.74.74.73 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 74.74.74.73 80 60 NTP
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: blatch | [IP]: 99.179.144.86:13667
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 74.74.74.73 80 60 NTP
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: blatch | [IP]: 99.179.144.86:13667
+[Level]: 1 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 74.74.74.73 80 60 NTP
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: Strafe | [IP]: 77.161.229.239:54668
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: Strafe | [IP]: 77.161.229.239:54718
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Strafe | [IP]: 77.161.229.239:54718
+[Level]: 1 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 70.70.70.72 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 60 UDP
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 70.70.70.72 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 30 LDAP
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: Strafe | [IP]: 77.161.229.239:55422
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Strafe | [IP]: 77.161.229.239:55422
+[Level]: 1 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: GET / HTTP/1.1
+Host: 45.129.2.226:455
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 193.89.248.56:12661
+[Level]: undefined | [Admin]: undefined
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: GET / HTTP/1.1
+Host: 45.129.2.226:455
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 193.89.248.56:12662
+[Level]: undefined | [Admin]: undefined
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: GET / HTTP/1.1
+Host: 45.129.2.226:455
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 193.89.248.56:12666
+[Level]: undefined | [Admin]: undefined
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 193.89.248.56:12666
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 193.89.248.56:12666
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: GET / HTTP/1.1
+Host: 45.129.2.226:455
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 193.89.248.56:12675
+[Level]: undefined | [Admin]: undefined
+[Cmd]: lasd | [FullCmd]: lasd
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 95.174.65.6:52010
+[Level]: 5 | [Admin]: 1
+[Cmd]: add | [FullCmd]: add
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 95.174.65.6:52010
+[Level]: 5 | [Admin]: 1
+[Cmd]: add | [FullCmd]: add
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 1.1.1.1 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 1.1.1.1 80 10 100
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: GET / HTTP/1.1
+Host: 45.129.2.226:455
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Accept-Encoding: gzip, deflate
+Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.6:45070
+[Level]: undefined | [Admin]: undefined
+[Cmd]: ? | [FullCmd]: ? cleasr
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 74.74.73.72 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 74.74.73.72 80 100 TCP
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 74.74.73.72 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 74.74.73.72 80 
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 74.74.73.72 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 74.74.73.72 80 100 UDP
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.14.163:5031
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.14.163:5031
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62963
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62981
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62984
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 51.89.208.88:62990
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: ckn | [IP]: 79.68.59.76:63927
+[Level]: undefined | [Admin]: undefined
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 79.68.59.76:63944
+[Level]: 1 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
