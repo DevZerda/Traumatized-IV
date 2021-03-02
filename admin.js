@@ -37,7 +37,11 @@ while(true) {
     if(cmd === "help") {
         console.clear();
         console.log(Banners.main_b() + CNC_Banners.admin_list());
+    } else if(cmd === "cnc_status") {
+
     } else if(cmd === "cnc") {
+        let switc = cmd_argv[1];
+        CNC_CP.cnc_toggle(switc);
     } else if(cmd.length === 0) {
 
     } else {
