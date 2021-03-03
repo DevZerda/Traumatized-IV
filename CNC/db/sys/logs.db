@@ -1312,3 +1312,83 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 5 | [Admin]: 1
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53191
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53191
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53287
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53287
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53296
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53296
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53307
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53307
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53324
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53324
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53362
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53362
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53398
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53398
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53409
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53409
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
