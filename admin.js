@@ -46,10 +46,16 @@ while(true) {
         CNC_CP.restart_cnc();
         console.log('[+] Restarting cnc......!\r\n');
     } else if(cmd === "motd") {
-        let new_msg = cmd_argv[1];
-        Crud.change_motd(new_msg);
+        if(cmd_argv.length === 1) {
+            let new_msg = cmd_argv[1];
+            Crud.change_motd(new_msg);
+        } else {
+            console.log("[x] Error, Missing arugments! Type 'help' for a list of help commands\r\n");
+        }
     } else if(cmd === "cnc_build") {
         console.log("coming soon...\r\n");
+    } else if(cmd === "cnc_rebuild") {
+        console.log("coming soon...");
     } else if(cmd.length === 0) {
 
     } else {
