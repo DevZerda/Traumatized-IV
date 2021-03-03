@@ -174,6 +174,11 @@ exports.resetSessions = function() {
     fs.writeFileSync("./CNC/db/sys/current.db", "");
 }
 
+exports.change_motd = function(new_motd) {
+    fs.writeFileSync("./CNC/db/sys/motd.dat", motd);
+    return "[+] Message Of The Day successfully updated!";
+}
+
 exports.GetCurrentUser = function(user) {
     let current_db = fs.readFileSync("./CNC/db/sys/current.db", "utf8");
     let users = current_db.split("\n");
