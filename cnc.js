@@ -50,7 +50,6 @@ Server.svr.on('connection', async function(socket) {
     eExtra.set_cursor(9, 37, socket);
     eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 1", socket);
     let username = await ServerFunc.getInput(socket, "");
-    console.log(username);
 
     socket.write(Config.Colors.Clear);
     eExtra.log_action("Connecting", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
@@ -64,7 +63,6 @@ Server.svr.on('connection', async function(socket) {
 
     socket.write(Config.Colors.Clear);
     let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
-    console.log(login_resp);
     if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
         socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
@@ -113,17 +111,28 @@ Server.svr.on('connection', async function(socket) {
             
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             if(eCrud.isAdmin(Current[0])) {
-                if(eConfig.CurrentCmd.arg.length === 1) {
-                    let tool = eConfig.CurrentCmd.arg[1];
-                    if(tool === "add") {
-                        socket.write(Crud.addUser(eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4], eConfig.CurrentCmd.arg[5], eConfig.CurrentCmd.arg[6], eConfig.CurrentCmd.arg[7]) + Config.hostname(""));
-                    } else if(tool === "remove") {
-                        socket.write(Crud.removeUser(eConfig.CurrentCmd.arg[2]) + Config.hostname(Current[0]));
-                    } else if(tool === "update") {
-                        socket.write(Crud.userUpdate(eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4], eConfig.CurrentCmd.arg[5]) + Config.hostname(Current[0]));
-                    } else {
-                        socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(Current[0]));
-                    }
+                let tool = eConfig.CurrentCmd.arg[1];
+                let arg2 = eConfig.CurrentCmd.arg[2];
+                let arg3 = eConfig.CurrentCmd.arg[3];
+                let arg4 = eConfig.CurrentCmd.arg[4];
+                let arg5 = eConfig.CurrentCmd.arg[5];
+                let arg6 = eConfig.CurrentCmd.arg[6];
+                let arg7 = eConfig.CurrentCmd.arg[7];
+                if(tool === "add") {
+                    socket.write(Crud.addUser(arg2, arg3, arg4, arg5, arg6, arg7) + Config.hostname(""));                    
+                } else if(tool === "remove") {
+                    socket.write(Crud.removeUser(arg2) + Config.hostname(Current[0]));
+                } else if(tool === "update") {
+                    socket.write(Crud.userUpdate(arg2, arg3, arg4, arg5) + Config.hostname(Current[0]));
+                } else if(tool === "change_motd") {
+                    let msg = eExtra.CleanMOTD(eConfig.CurrentCmd.arg);
+                    socket.write(Crud.change_motd(msg));
+                } else if(tool === "reset_ip") {
+                    socket.write(Crud.resetIP(eConfig.CurrentCmd.arg[2]));
+                } else if(tool === "black_cnc") {
+                    
+                } else {
+                    socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(Current[0]));
                 }
             } else {
                 socket.write("[x] Error, You aren't admin to use this command!\r\n" + Config.hostname(Current[0]));
@@ -133,19 +142,19 @@ Server.svr.on('connection', async function(socket) {
         }
     })
         
-        eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
+    eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
 
         //* END
         
 
-        socket.on('end', function() {
-            Crud.removeSession(Server.Socket_Info.UserIP);
-            console.log('Closing connection with the client\r\n');
-        });
+    socket.on('end', function() {
+        Crud.removeSession(Server.Socket_Info.UserIP);
+        console.log('Closing connection with the client\r\n');
+    });
 
-        socket.on('error', function(err) {
-            console.log("[NODEJS SERVER ERROR(IGNORE)]: " + err + "\r\n");
-        });
+    socket.on('error', function(err) {
+        console.log("[NODEJS SERVER ERROR(IGNORE)]: " + err + "\r\n");
+    });
 });
 
 /*
