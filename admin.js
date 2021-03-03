@@ -42,6 +42,14 @@ while(true) {
     } else if(cmd === "cnc") {
         let switc = cmd_argv[1];
         CNC_CP.cnc_toggle(switc);
+    } else if(cmd === "restart_cnc") {
+        CNC_CP.restart_cnc();
+        console.log('[+] Restarting cnc......!\r\n');
+    } else if(cmd === "motd") {
+        let new_msg = cmd_argv[1];
+        Crud.change_motd(new_msg);
+    } else if(cmd === "cnc_build") {
+        console.log("coming soon...\r\n");
     } else if(cmd.length === 0) {
 
     } else {
