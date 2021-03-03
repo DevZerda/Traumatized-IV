@@ -5,6 +5,7 @@ const { exec } = require('child_process');
 // Files
 const Crud = require("../CNC/Auth/crud.js");
 const CNC_Func = require("./main.js");
+const eExtra = require("../CNC/Extra/functions.js");
 
 exports.cnc_toggle = async function(switc) {
     if(switc === "on") {
@@ -17,8 +18,8 @@ exports.cnc_toggle = async function(switc) {
 }
 
 exports.restart_cnc = async function() {
-    await CNC_Func.Turn_CNC_Off();
-    await CNC_Func.Turn_CNC_On();
+    CNC_Func.Turn_CNC_Off();
+    setTimeout(CNC_Func.Turn_CNC_On(), 5000);
 }
 
 exports.Turn_CNC_On = async function() {
