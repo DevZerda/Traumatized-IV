@@ -39,6 +39,7 @@ exports.User = function(user) {
 *@type: [<string>]
 */
 exports.addUser = function(user, ip, password, level, maxtime, admin) {
+    console.log("TESTED\r\n");
     let get_user = Crud.User(user);
     if(get_user === "[x] Error, No user found!") {
         fs.appendFile("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
