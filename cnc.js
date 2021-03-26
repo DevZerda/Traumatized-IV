@@ -119,16 +119,19 @@ Server.svr.on('connection', async function(socket) {
                 let arg6 = eConfig.CurrentCmd.arg[6];
                 let arg7 = eConfig.CurrentCmd.arg[7];
                 if(tool === "add") {
-                    socket.write(Crud.addUser(arg2, arg3, arg4, arg5, arg6, arg7) + Config.hostname(Current[0]));                    
+                    let resp = Crud.addUser(arg2, arg3, arg4, arg5, arg6, arg7);
+                    socket.write(resp + Config.hostname(Current[0]));                    
                 } else if(tool === "remove") {
                     socket.write(Crud.removeUser(arg2) + Config.hostname(Current[0]));
                 } else if(tool === "update") {
                     socket.write(Crud.userUpdate(arg2, arg3, arg4, arg5) + Config.hostname(Current[0]));
                 } else if(tool === "change_motd") {
                     let msg = eExtra.CleanMOTD(eConfig.CurrentCmd.arg);
-                    socket.write(Crud.change_motd(msg));
+                    socket.write(Crud.change_motd(msg.replace(eConfig.CurrentCmd.arg[0] + " " + eConfig.CurrentCmd.arg[1], "")));
                 } else if(tool === "reset_ip") {
-                    socket.write(Crud.resetIP(eConfig.CurrentCmd.arg[2]));
+                    socket.write(Crud.resetIP(arg2, arg3) + Config.hostname(Current[0]));
+                } else if(tool === "change_pw") {
+                    socket.write(Crud.changePassword(arg2, arg3) + Config.hostname(Current[0]));
                 } else {
                     socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(Current[0]));
                 }
