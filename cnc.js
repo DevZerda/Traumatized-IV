@@ -119,7 +119,7 @@ Server.svr.on('connection', async function(socket) {
                 let arg6 = eConfig.CurrentCmd.arg[6];
                 let arg7 = eConfig.CurrentCmd.arg[7];
                 if(tool === "add") {
-                    socket.write(Crud.addUser(arg2, arg3, arg4, arg5, arg6, arg7) + Config.hostname(""));                    
+                    socket.write(Crud.addUser(arg2, arg3, arg4, arg5, arg6, arg7) + Config.hostname(Current[0]));                    
                 } else if(tool === "remove") {
                     socket.write(Crud.removeUser(arg2) + Config.hostname(Current[0]));
                 } else if(tool === "update") {
@@ -129,8 +129,6 @@ Server.svr.on('connection', async function(socket) {
                     socket.write(Crud.change_motd(msg));
                 } else if(tool === "reset_ip") {
                     socket.write(Crud.resetIP(eConfig.CurrentCmd.arg[2]));
-                } else if(tool === "black_cnc") {
-                    
                 } else {
                     socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(Current[0]));
                 }
