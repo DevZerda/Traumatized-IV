@@ -32,5 +32,4 @@ exports.Colors = {
     "Clear": "\033[2J\033[1;1H"
 }
 
-exports.API_1 = "http://194.87.68.129/api.php?host=";
-exports.API_2 = "https://onyxapi.online/AllAPI.php?key=n4-1m-27/3/2021-345345&host=";
+exports.API_1 = "https://virtualstress.net//api/api.php?key=OZKDOpkULEkGPfMB&vip=0&host=";
