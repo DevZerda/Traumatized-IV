@@ -140,9 +140,10 @@ Server.svr.on('connection', async function(socket) {
         } else {
             socket.write("[x] Error, No command found!\r\n" + Config.hostname(Current[0]));
         }
+        
+        eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
     })
         
-    eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
 
         //* END
         
