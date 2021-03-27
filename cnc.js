@@ -62,7 +62,7 @@ Server.svr.on('connection', async function(socket) {
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
-    const login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
+    var login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
     console.log(login_resp);
     if(login_resp.includes("successfully")) {
         socket.write(Banners.main_b());
