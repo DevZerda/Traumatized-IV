@@ -1,6 +1,5 @@
 // Modules
 const fs = require("fs");
-const { prependListener } = require("process");
 
 // File
 const Crud = require("./crud.js");
@@ -17,13 +16,12 @@ exports.User = function(user) {
     let user_line = "";
 
     users.forEach(e => {
-        if(e.length > 5) {
-            if(e.includes(user)) {
+        let usrname = e.split("','")[0].replace("('", "");
+        if(e.length > 5 || e.includes(user) || usrname == user || e.startsWith("('" + user + "','")) {
                 found_check = true;
                 let fix = e.split("('").join("");
                 let fix2 = fix.split("')").join("");
                 user_line = fix2.split("','").join(",");
-            }
         }
     })
 
