@@ -1392,3 +1392,208 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 0 | [Admin]: 1
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51154
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51788
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51795
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51800
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51805
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51826
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51844
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51850
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51883
+[Level]: 0 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52208
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52214
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52214
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin add test none test 0 0 0
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52214
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin update test 3 3 0
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52214
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52233
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52233
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52260
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52260
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd test
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52260
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52260
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52757
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52757
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd testing_this
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52774
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52783
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52783
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd lul
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52783
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52783
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd lul
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52852
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52852
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd lul
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52875
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52875
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd gay
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52875
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin add test test test 0 0 0
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52887
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52887
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd gay
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd lul
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]: oir | [FullCmd]: oir
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52902
+[Level]: 0 | [Admin]: 1
+[Cmd]: f | [FullCmd]: f
+
