@@ -31,7 +31,7 @@ Server.svr.on('connection', async function(socket) {
     /* Getting Connecting User IP/PORT */
     Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
-    eExtra.set_Title("Traumatized IV | [API]: 1 | ", socket)
+    eExtra.set_Title("Traumatized IV | [API]: 2 | ", socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT + "\r\n");
@@ -48,7 +48,7 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
-    eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 1", socket);
+    eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 2", socket);
     let username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
@@ -62,12 +62,13 @@ Server.svr.on('connection', async function(socket) {
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
-    let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
-    if(login_resp.includes("Successfully")) {
+    const login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
+    console.log(login_resp);
+    if(login_resp.includes("successfully")) {
         socket.write(Banners.main_b());
         socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
     } else {
-        socket.write(Config.Colors.Clear + "Error, Invalid Info!");
+        socket.write(Config.Colors.Clear + "[x] Error, Username or password seem to be incorrect!. Try again");
         await eExtra.sleep(3000).then(() => {
             socket.destroy();
         })
