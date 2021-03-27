@@ -1493,237 +1493,917 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Cmd]: admin | [FullCmd]: admin help
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52757
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52757
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd testing_this
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52774
+[User]: nano | [IP]: 73.61.13.216:15742
 [Level]: 0 | [Admin]: 1
 [Cmd]:  | [FullCmd]: 
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52783
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52783
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd lul
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52783
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52783
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd lul
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52852
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52852
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd lul
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52875
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52875
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd gay
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52875
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin add test test test 0 0 0
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52887
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52887
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd gay
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd lul
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]: oir | [FullCmd]: oir
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:52902
-[Level]: 0 | [Admin]: 1
-[Cmd]: f | [FullCmd]: f
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]: admin | [FullCmd]: admin change_motd gayt
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: CMD | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:57037
-[Level]: 0 | [Admin]: 1
-[Cmd]: l | [FullCmd]: l
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58145
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58682
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58691
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58719
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58841
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58856
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58870
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58876
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58896
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58902
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58907
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58918
-[Level]: 0 | [Admin]: 1
-[Cmd]:  | [FullCmd]: 
-
-[LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58934
+[User]:  | [IP]: 73.61.13.216:15719
 [Level]: 3 | [Admin]: 0
 [Cmd]:  | [FullCmd]: 
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58939
-[Level]: 3 | [Admin]: 0
+[User]: Vhersed | [IP]: 174.16.52.80:5305
+[Level]: 3 | [Admin]: 0
 [Cmd]:  | [FullCmd]: 
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58943
-[Level]: 3 | [Admin]: 0
+[User]:  | [IP]: 174.16.52.80:5308
+[Level]: 3 | [Admin]: 0
 [Cmd]:  | [FullCmd]: 
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58968
-[Level]: 3 | [Admin]: 0
+[User]:  | [IP]: 174.16.52.80:5309
+[Level]: 3 | [Admin]: 0
 [Cmd]:  | [FullCmd]: 
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58972
-[Level]: 3 | [Admin]: 0
+[User]:  | [IP]: 174.16.52.80:5312
+[Level]: 3 | [Admin]: 0
 [Cmd]:  | [FullCmd]: 
 
 [LOG]: Connecting | [Timestamp]: [object Promise]
-[User]: nano | [IP]: 127.0.0.1:58975
-[Level]: 3 | [Admin]: 0
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
 [Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: Methods | [FullCmd]: Methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: geo | [FullCmd]: geo 1.1.1.1
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: help[ | [FullCmd]: help[
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: scan | [FullCmd]: scan 1.1.1.1
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 73.73.73.173 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 73.73.73.173 80 120 NTP
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: xls | [FullCmd]: xls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 162.144.50.35 | [IP]: 22
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 162.144.50.35 22 120 DVR
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 162.144.50.35 22 120 DVR
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: ccls | [FullCmd]: ccls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lscs | [FullCmd]: lscs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lsc | [FullCmd]: lsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lsc | [FullCmd]: lsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clcls | [FullCmd]: clcls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lsc | [FullCmd]: lsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcs | [FullCmd]: lcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cslc | [FullCmd]: cslc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cslc | [FullCmd]: cslc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slc | [FullCmd]: slc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: ccls | [FullCmd]: ccls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cl | [FullCmd]: cl
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: scslc | [FullCmd]: scslc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: slcs | [FullCmd]: slcs
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: sclsc | [FullCmd]: sclsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: sclac | [FullCmd]: sclac
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: alca | [FullCmd]: alca
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: sclasc | [FullCmd]: sclasc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: aslcas | [FullCmd]: aslcas
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clac | [FullCmd]: clac
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lsccls | [FullCmd]: lsccls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lcsc | [FullCmd]: lcsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lsc | [FullCmd]: lsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: scls | [FullCmd]: scls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clsc | [FullCmd]: clsc
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: lscsl | [FullCmd]: lscsl
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: ccls | [FullCmd]: ccls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: method | [FullCmd]: method
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: clws | [FullCmd]: clws
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: cls | [FullCmd]: cls
+
+[LOG]: undefined | [Timestamp]: [object Promise]
+[User]: 173.208.96.47 | [IP]: 10023
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: Hornet | [IP]: 192.145.117.234:49183
+[Level]: 5 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: root | [IP]: 192.145.117.234:50521
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 73.61.13.169:5437
+[Level]: 3 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 73.61.13.169:5576
+[Level]: 3 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 73.61.13.169:5425
+[Level]: 3 | [Admin]: 0
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56666
+[Level]: 5 | [Admin]: 1
+[Cmd]: stress | [FullCmd]: stress 173.208.96.47 10023 120 ark-drop
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56818
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56818
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56818
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin add test none test 0 0 0
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56801
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56801
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56801
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56801
+[Level]: 5 | [Admin]: 1
+[Cmd]: no | [FullCmd]: no
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 73.61.13.147:56812
+[Level]: 5 | [Admin]: 1
+[Cmd]: no | [FullCmd]: no
 
