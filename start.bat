@@ -1,2 +1,2 @@
-nodemon index.js
+node cnc.js
 pause
