@@ -33,3 +33,4 @@ exports.Colors = {
 }
 
 exports.API_1 = "https://virtualstress.net//api/api.php?key=OZKDOpkULEkGPfMB&vip=0&host=";
+exports.API_2 = "https://onyxapi.cc/AllAPI.php?Key=Shakai-Life--FickDichKyle-511687600386605057&host=";
