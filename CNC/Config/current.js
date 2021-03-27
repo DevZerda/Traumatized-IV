@@ -36,5 +36,11 @@ exports.GetCmd = function(Cmd) {
 }
 
 exports.GetUserInfo = function(user) {
-    
+    let get_user = Crud.User(user).split(",");
+    C.CurrentUser.Username = get_user[0];
+    C.CurrentUser.IP = get_user[1];
+    C.CurrentUser.Password = get_user[2];
+    C.CurrentUser.Level = get_user[3];
+    C.CurrentUser.Maxtime = get_user[4];
+    C.CurrentUser.isAdmin = (get_user[5] === "1" ? true:false);
 }
