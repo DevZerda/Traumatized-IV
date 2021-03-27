@@ -12,21 +12,19 @@ exports.login = function(user, pass, ip) {
     }
 
     let get_user = Crud.User(user);
-    console.log(get_user + " | " + user + ", " + pass + " \r\n");
     if(get_user === "[x] Error, No user found!") {
         return "[x] Error, Username or password seem to be incorrect!. Try again";
     }
-    eExtra.sleep(3000).then(() => {
-        let info = get_user.split(",");
-        eExtra.log_login(user, ip);
-        if(user === info[0] || pass === info[2]) {
-            Crud.LogSession(user, ip);
-            if(info[1] === "none") {
-                Crud.changeIP(user, ip);
-            }
-            return "[+] Successfully logged in, Welcome: " + user;
-        } else {
-            return "[x] Error, Username or password seem to be incorrect!. Try again";
+
+    let info = get_user.split(",");
+    eExtra.log_login(user, ip);
+    if(user === info[0] || pass === info[2]) {
+        Crud.LogSession(user, ip)
+        if(info[1] === "none") {
+            Crud.changeIP(user, ip);
         }
-    })
+        return "[+] Successfully logged in, Welcome: " + user;
+    } else {
+        return "[x] Error, Username or password seem to be incorrect!. Try again";
+    }
 }
