@@ -31,7 +31,7 @@ Server.svr.on('connection', async function(socket) {
     /* Getting Connecting User IP/PORT */
     Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
-    eExtra.set_Title("Traumatized IV | [API]: 2 | ", socket)
+    eExtra.set_Title("Traumatized IV | [API]: 1 | ", socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT + "\r\n");
@@ -48,7 +48,7 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
-    eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 2", socket);
+    eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 1", socket);
     let username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
@@ -62,13 +62,12 @@ Server.svr.on('connection', async function(socket) {
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
-    var login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
-    console.log(login_resp);
-    if(login_resp.includes("successfully")) {
+    let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
+    if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
         socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
     } else {
-        socket.write(Config.Colors.Clear + "[x] Error, Username or password seem to be incorrect!. Try again");
+        socket.write(Config.Colors.Clear + "Error, Invalid Info!");
         await eExtra.sleep(3000).then(() => {
             socket.destroy();
         })
@@ -89,7 +88,7 @@ Server.svr.on('connection', async function(socket) {
         let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
         let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
         eConfig.GetCmd(inputCMD);
-        eConfig.GetUserInfo(Current[0]);
+        // eConfig.GetUserInfo();
 
         if(eConfig.CurrentCmd.Cmd === "help" || eConfig.CurrentCmd.Cmd === "?") {
             socket.write(Config.Colors.Clear + Banners.main_b() + Banners.help_list() + Config.hostname(Current[0]));
@@ -108,8 +107,10 @@ Server.svr.on('connection', async function(socket) {
         } else if(eConfig.CurrentCmd.Cmd === "stress") {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
+        } else if(eConfig.CurrentCmd.Cmd === "udp") {
+            
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
-            if(eCrud.isAdmin(Current[0]) || eConfig.CurrentUser.isAdmin === true) {
+            if(eCrud.isAdmin(Current[0])) {
                 let tool = eConfig.CurrentCmd.arg[1];
                 let arg2 = eConfig.CurrentCmd.arg[2];
                 let arg3 = eConfig.CurrentCmd.arg[3];
