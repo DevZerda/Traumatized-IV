@@ -1,10 +1,7 @@
 // Files
 const fs = require("fs");
 const { parse } = require("path");
-
-// Files
 const Crud = require("./crud.js");
-const eC = require("../Config/current.js");
 
 /*
 *@params: Username
@@ -48,6 +45,8 @@ exports.isAdmin = function(user) {
     let get_user = Crud.User(user).split(",");
     if(parseInt(get_user[5]) === 1) {
         return true;
+    } else if(parseInt(get_user[5]) === 0) {
+        return false;
     } else {
         // console.log("Error") // APP ERROR (DIDNT READ DB CORRECT OR USER LINE CORRUPTED)
         return false;
