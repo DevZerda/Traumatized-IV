@@ -1,13 +1,17 @@
+// Modules
+const fs = require("fs");
+
 // File
 const Config = require("../Config/main.js");
+const b = require("./main.js")
 
 /*
 *@type: [<string>]
 */
 exports.main_b = function() {
-    let m = Config.Colors.Red + "                       ╔╦╗╦═╗╔═╗╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔═╗╔╦╗\r\n";
-    m += "                        ║ ╠╦╝╠═╣║ ║║║║╠═╣ ║ ║╔═╝║╣  ║║\r\n";
-    m += "                /\\      ╩ ╩╚═╩ ╩╚═╝╩ ╩╩ ╩ ╩ ╩╚═╝╚═╝═╩╝      /\\\r\n";
+    let m = b.makeMOTD() + Config.Colors.Red + "                       " + Config.Colors.Yellow + "╔╦╗╦═╗╔═╗╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔═╗╔╦╗" + Config.Colors.Red + "\r\n";
+    m += "                        " + Config.Colors.Yellow + "║ ╠╦╝╠═╣║ ║║║║╠═╣ ║ ║╔═╝║╣  ║║" + Config.Colors.Red + "\r\n";
+    m += "                " + Config.Colors.Red + "/\\      " + Config.Colors.Yellow + "╩ ╩╚═╩ ╩╚═╝╩ ╩╩ ╩ ╩ ╩╚═╝╚═╝═╩╝" + Config.Colors.Red + "      /\\\r\n";
     m += "               /  \\                __                      /  \\\r\n";
     m += "               |  |                \\ \\_____                |  |\r\n";
     m += "               |  |             ###[==_____>               |  |\r\n";
@@ -23,9 +27,9 @@ exports.main_b = function() {
 *@type: [<string>]
 */
 exports.login_b = function() {
-    let l_m = Config.Colors.Red + "                       ╔╦╗╦═╗╔═╗╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔═╗╔╦╗\r\n";
-    l_m += "                        ║ ╠╦╝╠═╣║ ║║║║╠═╣ ║ ║╔═╝║╣  ║║\r\n";
-    l_m += "                /\\      ╩ ╩╚═╩ ╩╚═╝╩ ╩╩ ╩ ╩ ╩╚═╝╚═╝═╩╝      /\\\r\n";
+    let l_m = Config.Colors.Red + "                       " + Config.Colors.Yellow + "╔╦╗╦═╗╔═╗╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔═╗╔╦╗" + Config.Colors.Red + "\r\n";
+    l_m += "                        " + Config.Colors.Yellow + "║ ╠╦╝╠═╣║ ║║║║╠═╣ ║ ║╔═╝║╣  ║║" + Config.Colors.Red + "\r\n";
+    l_m += "                " + Config.Colors.Red + "/\\" + Config.Colors.Yellow + "      ╩ ╩╚═╩ ╩╚═╝╩ ╩╩ ╩ ╩ ╩╚═╝╚═╝═╩╝" + Config.Colors.Red + "      /\\\r\n";
     l_m += "               /  \\                __                      /  \\\r\n";
     l_m += "               |  |                \\ \\_____                |  |\r\n";
     l_m += "               |  |             ###[==_____>               |  |\r\n";
@@ -40,9 +44,9 @@ exports.login_b = function() {
 *@type: [<string>]
 */
 exports.login_v = function() {
-    let l_v = Config.Colors.Red + "                       ╔╦╗╦═╗╔═╗╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔═╗╔╦╗\r\n";
-    l_v += "                        ║ ╠╦╝╠═╣║ ║║║║╠═╣ ║ ║╔═╝║╣  ║║\r\n";
-    l_v += "                /\\      ╩ ╩╚═╩ ╩╚═╝╩ ╩╩ ╩ ╩ ╩╚═╝╚═╝═╩╝      /\\\r\n";
+    let l_v = Config.Colors.Yellow + "                       " + Config.Colors.Yellow + "╔╦╗╦═╗╔═╗╦ ╦╔╦╗╔═╗╔╦╗╦╔═╗╔═╗╔╦╗" + Config.Colors.Red + "\r\n";
+    l_v += "                        " + Config.Colors.Yellow + "║ ╠╦╝╠═╣║ ║║║║╠═╣ ║ ║╔═╝║╣  ║║" + Config.Colors.Red + "\r\n";
+    l_v += "                " + Config.Colors.Red + "/\\" + Config.Colors.Yellow + "      ╩ ╩╚═╩ ╩╚═╝╩ ╩╩ ╩ ╩ ╩╚═╝╚═╝═╩╝" + Config.Colors.Red + "      /\\\r\n";
     l_v += "               /  \\                __                      /  \\\r\n";
     l_v += "               |  |                \\ \\_____                |  |\r\n";
     l_v += "               |  |             ###[==_____>               |  |\r\n";
@@ -95,4 +99,48 @@ exports.statistics = function() {
     stats += "    ║        0         ║   ║           0          ║   ║        0         ║\r\n";
     stats += "    ╚══════════════════╝   ╚══════════════════════╝   ╚══════════════════╝\r\n";
     return stats;
+}
+
+exports.methods = function() {
+    let meths = Config.Colors.Red + "                   ╔═══════════════════════════════════════╗\r\n";
+    meths = "                   ║                  " + Config.Colors.Yellow + "Methods              ║\r\n";
+    meths = "                   ╚╦═════════╦═════════════════╦═════════╦╝\r\n";
+    meths = "                    ║  " + Config.Colors.Yellow + "API 1  ║                 ║  " + Config.Colors.Yellow + "API 2  ║\r\n";
+    meths = "                    ╠═════════╩═════╗     ╔═════╩═════════╣\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "NTP         ║     ║ → " + Config.Colors.Yellow + "TCP-DOWN    ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "DNS         ║     ║ → " + Config.Colors.Yellow + "REDSYN      ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "DNS-X       ║     ║ → " + Config.Colors.Yellow + "100UP-TCP   ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "LDAP-X      ║     ║ → " + Config.Colors.Yellow + "FORTNITEv2  ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "CLDAP       ║     ║ → " + Config.Colors.Yellow + "100UP-SYN   ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "SNMP        ║     ║ → " + Config.Colors.Yellow + "NFO-RIOT    ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "SNMPV2      ║     ║ → " + Config.Colors.Yellow + "N/A         ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "SOAP        ║     ║ → " + Config.Colors.Yellow + "AWS-DESTROY ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "AMP         ║     ║ → " + Config.Colors.Yellow + "NFO-DOWN    ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "IPX         ║     ║ → " + Config.Colors.Yellow + "FN-LAG      ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "IPXv2       ║     ║ → " + Config.Colors.Yellow + "NFO-KILLER  ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "BOOM        ║     ║ → " + Config.Colors.Yellow + "NFO-SMACKER ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "HomeV2      ║     ║ → " + Config.Colors.Yellow + "YELLOWSYN   ║\r\n";
+    meths = "                    ║ → " + Config.Colors.Yellow + "BOOMv2      ║     ║ → " + Config.Colors.Yellow + "OVH-GAME    ║\r\n";
+    meths = "                    ╚═══════════════╝     ╚═══════════════╝\r\n";
+    return meths;
+}
+
+exports.makeMOTD = function() {
+    let middle_bannr = " MOTD: ";
+    let motd = fs.readFileSync("./CNC/db/sys/motd.dat", "utf8");
+    middle_bannr += b.fix_motd(motd);
+    return Config.Colors.Red + "╔══════════════════════════════════════════════════════════════════════════════╗\r\n║" + middle_bannr + "║\r\n╚══════════════════════════════════════════════════════════════════════════════╝\r\n";
+}
+
+exports.fix_motd = function(motd) { 
+    let name = " MOTD:                                                                       "
+    let name_length = name.length;
+    let new_t = " " + Config.Colors.Yellow + motd + Config.Colors.Red;
+    let new_length = name_length - motd.length - 7;
+    let count = 0;
+    for(count = 0; count < new_length; count++) {
+        new_t += " ";
+    }
+    
+    return new_t;
 }
