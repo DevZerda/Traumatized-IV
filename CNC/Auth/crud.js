@@ -42,7 +42,7 @@ exports.addUser = function(user, ip, password, level, maxtime, admin) {
     console.log("TESTED\r\n");
     let get_user = Crud.User(user);
     if(get_user === "[x] Error, No user found!") {
-        fs.appendFile("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
+        fs.appendFileSync("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + password + "','" + level + ",'" + maxtime + "','" + admin + "')\n");
         return "[+] User: " + user + " successfully added!\r\n";
     } else {
         return "[x] Error, This username is taken, choose another username!\r\n";
@@ -54,7 +54,7 @@ exports.addUser = function(user, ip, password, level, maxtime, admin) {
 *@type: [<string>]
 */
 exports.removeUser = function(user) {
-    let db = fs.appendFileSync("./CNC/db/sys/users.db", "utf8");
+    let db = fs.readFileSync("./CNC/db/sys/users.db", "utf8");
     let users = db.split("\n");
 
     new_db = "";
@@ -142,7 +142,7 @@ exports.changePassword = function(user, new_pw) {
     })
 
     fs.writeFileSync("./CNC/db/sys/users.db", new_db);
-    return "[+] User: " + user + "'s password successfully updated!";
+    return "[+] User: " + user + "'s password successfully updated!\r\n";
 }
 
 exports.LogSession = function(user, ip) {
@@ -202,7 +202,7 @@ exports.GetCurrentUser = function(user) {
     })
 
     if(found_check == false) {
-        return "[x] Error, The user is currently not signed in!";
+        return "[x] Error, The user is currently not signed in!\r\n";
     } else {
         return user_line;
     }
@@ -212,5 +212,5 @@ exports.resetIP = function(user) {
     let info = Crud.User(user).split(",");
     Crud.removeUser(user);
     Crud.addUser(info[0], info[2], info[3], info[4], info[5])
-
+    return "IP Successfully Reset!\r\n";
 }
