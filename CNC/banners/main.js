@@ -109,6 +109,93 @@ exports.methods = function () {
     return SpehcM;
 }
 
+exports.Home_HomeM = function() {
+    let HomeM = "";
+    HomeM += "                               ╔════════════════╗\r\n";
+    HomeM += "                               ║  Home Methods  ║\r\n";
+    HomeM += "                               ╚══════╦══╦══════╝\r\n";
+    HomeM += "    ╔════════════════╗╔═══════════════╩╗╔╩═══════════════╗╔════════════════╗\r\n";
+    HomeM += "    ║-> UDP-MIX-HOME ║║-> MSSQL        ║║-> STD          ║║-> XXX          ║\r\n";
+    HomeM += "    ║-> AMP-QUAKE    ║║-> HOME         ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ║-> AMP-MDNS     ║║-> LDAP         ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ║-> AMP-SNMP     ║║-> SNMP         ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ╠════════════════╝╚════════════════╝╚════════════════╝╚════════════════╣\r\n";
+    HomeM += "    ║                                                                      ║\r\n";
+    HomeM += "    ╠════════════════╗╔════════════════╗╔════════════════╗╔════════════════╣\r\n";
+    HomeM += "    ║-> AMP-DNS      ║║-> RAIL         ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ║-> AMP-NTP      ║║-> ARD          ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ║-> RDP-UDP      ║║-> DNS          ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ║-> CHARGEN      ║║-> NTP          ║║-> XXX          ║║-> XXX          ║\r\n";
+    HomeM += "    ╚════════════════╝╚════════════════╝╚════════════════╝╚════════════════╝\r\n";
+    return HomeM;
+}
+
+exports.Game_GameM = function() {
+    let GameM = "";
+    GameM += "                                       " + Config.Colors.Blue + "╔════════════════╗" + Config.Colors.Blue + "                            \r\n";
+    GameM += "                                       " + Config.Colors.Blue + "║" + Config.Colors.Blue + "  Game Methods  " + Config.Colors.Blue + "║" + Config.Colors.Blue + "                            \r\n";
+    GameM += "                                       " + Config.Colors.Blue + "╚══════╦══╦══════╝" + Config.Colors.Blue + "                            \r\n";
+    GameM += "            " + Config.Colors.Blue + "╔════════════════╗╔═══════════════╩╗╔╩═══════════════╗╔════════════════╗" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " 2K           " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " R6-CRASH     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " COD-CRASH    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " DVR          " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " GAME-SLAM    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " FIVEM-DROP   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " ZOOM         " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " 2K-FREEZE    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " BRAWLHALLA   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " PUBG         " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " APEX-DOWN    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " COD-FREEZE   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "╠════════════════╝╚════════════════╝╚════════════════╝╚════════════════╣" + Config.Colors.Blue + " \r\n"; 
+    GameM += "            " + Config.Colors.Blue + "║" + Config.Colors.Blue + "                                                                      " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "╠════════════════╗╔════════════════╗╔════════════════╗╔════════════════╣" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " FN-LAG       " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " MINECRAFT    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " GAME-LIMIT   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " ARK-255      " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " RUST-STAB    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " FORTNITE     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " GAME-DOWN    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " ROBLOX-X     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " FIVEM-UDP    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    GameM += "            " + Config.Colors.Blue + "╚════════════════╝╚════════════════╝╚════════════════╝╚════════════════╝" + Config.Colors.Blue + " \r\n";
+    return GameM;
+}
+
+exports.Bypass_BypaM = function() {
+    let BypaM = "";
+    BypaM += "                                       " + Config.Colors.Blue + "╔════════════════╗" + Config.Colors.Blue + "                            \r\n";
+    BypaM += "                                       " + Config.Colors.Blue + "║" + Config.Colors.Blue + " Bypass Methods " + Config.Colors.Blue + "║" + Config.Colors.Blue + "                            \r\n";
+    BypaM += "                                       " + Config.Colors.Blue + "╚══════╦══╦══════╝" + Config.Colors.Blue + "                            \r\n"; 
+    BypaM += "            " + Config.Colors.Blue + "╔════════════════╗╔═══════════════╩╗╔╩═══════════════╗╔════════════════╗" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " DEDIPATH-SAS " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OVH-ICMP     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OVH-GAME     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " OCTO-DEATH   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OVH-FUCK     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " REDSYNV2     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " VPN-BYPASS   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OVH-NUKE     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OVH-RAIL     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " NFO-DEATH    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " NFO-RIOT     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " HYDRA-VX     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "╠════════════════╝╚════════════════╝╚════════════════╝╚════════════════╣" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║" + Config.Colors.Blue + "                                                                      " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "╠════════════════╗╔════════════════╗╔════════════════╗╔════════════════╣" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " OVH-DEVIL    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " NFO-SLAM     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OVH-UDP      " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " OVH-CHAOS    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " NFO-NULL     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " KILLALL      " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " OVH-ABUSE    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " VPN-ZEUS     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " 100UP        " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " 100UP-TCP    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " HYDRA-VX     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " WRA          " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    BypaM += "            " + Config.Colors.Blue + "╚════════════════╝╚════════════════╝╚════════════════╝╚════════════════╝" + Config.Colors.Blue + " \r\n";
+    return BypaM;
+}
+
+exports.Special_SpecM = function() {
+    let SpecM = "";
+    SpecM += "                                       " + Config.Colors.Blue + "╔════════════════╗" + Config.Colors.Blue + "                            \r\n";
+    SpecM += "                                       " + Config.Colors.Blue + "║" + Config.Colors.Blue + "Special Methods." + Config.Colors.Blue + "║" + Config.Colors.Blue + "                            \r\n";
+    SpecM += "                                       " + Config.Colors.Blue + "╚══════╦══╦══════╝" + Config.Colors.Blue + "                            \r\n";  
+    SpecM += "            " + Config.Colors.Blue + "╔════════════════╗╔═══════════════╩╗╔╩═══════════════╗╔════════════════╗" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " STUN         " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " HTTP-POST    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " UDP-BYPASSV1 " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " SYN9         " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " HTTP-HEAD    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " HOT-SPOTV1   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " SYN-X        " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " SERVERV2     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " AUTOBYPASS   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " SYNACK       " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " TCP-FUCK     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " UDP-BYPASS   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "╠════════════════╝╚════════════════╝╚════════════════╝╚════════════════╣" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║" + Config.Colors.Blue + "                                                                      " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "╠════════════════╗╔════════════════╗╔════════════════╗╔════════════════╣" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " SYNACK       " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " RAIN-SYN     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " SUCURI-KILLER" + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " YUBINA       " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " UDPBYPASS    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " OPENVPN-KILL " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " CPU-SSH      " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " KILLALLV5    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " HOT-SPOTV1   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "║->" + Config.Colors.Blue + " HTTP-GET     " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " DEDI-PATH    " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " TCP-BYPASS   " + Config.Colors.Blue + "║║->" + Config.Colors.Blue + " XXX          " + Config.Colors.Blue + "║" + Config.Colors.Blue + " \r\n";
+    SpecM += "            " + Config.Colors.Blue + "╚════════════════╝╚════════════════╝╚════════════════╝╚════════════════╝" + Config.Colors.Blue + " \r\n";
+    return SpecM;
+}
+
+
+
+
 exports.makeMOTD = function() {
     let middle_bannr = " MOTD: ";
     let motd = fs.readFileSync("./CNC/db/sys/motd.dat", "utf8");
