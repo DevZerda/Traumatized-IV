@@ -2407,3 +2407,408 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 5 | [Admin]: 1
 [Cmd]: no | [FullCmd]: no
 
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56231
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56231
+[Level]: 5 | [Admin]: 1
+[Cmd]: HELP | [FullCmd]: HELP
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56231
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56317
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56320
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56326
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56332
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56332
+[Level]: 5 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56332
+[Level]: 5 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56382
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56418
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56418
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56418
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56418
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56418
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56432
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56432
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56432
+[Level]: 5 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56432
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56469
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56469
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56474
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56474
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:56474
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57087
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57087
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57394
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 127.0.0.1:57396
+[Level]: 3 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57403
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57403
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57403
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57426
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57426
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57426
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57466
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57466
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57466
+[Level]: 5 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57466
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57466
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: d | [FullCmd]: d
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: d | [FullCmd]: d
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: d | [FullCmd]: d
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]: d | [FullCmd]: d
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57496
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57789
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57789
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57789
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57853
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57853
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57853
+[Level]: 5 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57853
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57853
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin add test test 0 0 0
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 127.0.0.1:57938
+[Level]: 0 | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57940
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:57940
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin remove test
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58015
+[Level]: 5 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58015
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin remove Vhersed
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58015
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin add test test 0 0 0
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58015
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin add test test 0 0 0
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58015
+[Level]: 5 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin add fag test 0 0 0
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58015
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin update nano 1 1 1
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd skid
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin change_motd Welcome to Flood Security! Type help to start
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58122
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
