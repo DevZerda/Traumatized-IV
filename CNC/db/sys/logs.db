@@ -2812,3 +2812,73 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 1 | [Admin]: 1
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58275
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58275
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods 1
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58275
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods 1
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58310
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58310
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58310
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58310
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58310
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58336
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58336
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58381
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58381
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58381
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods 1
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:58381
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods 1
+
