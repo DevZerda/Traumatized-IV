@@ -146,12 +146,7 @@ exports.changePassword = function(user, new_pw) {
 }
 
 exports.LogSession = function(user, ip) {
-    let check_user = Crud.GetCurrentUser(user);
-    if(check_user === "[x] Error, The user is currently not signed in!") {
-        fs.appendFileSync("./CNC/db/sys/current.db", "('" + user + "','" + ip + "')\n");
-    } else {
-        return "[x] Error, This user is already signed in. One connection per user!";
-    }
+    fs.appendFileSync("./CNC/db/sys/current.db", "('" + user + "','" + ip + "')\n");
 }
 
 exports.removeSession = function(userOrip) {
@@ -162,8 +157,7 @@ exports.removeSession = function(userOrip) {
 
     old_users.forEach(e => {
         if(e.length > 5) {
-            if(!e.includes(userOrip))
-            {
+            if(!e.includes(userOrip)) {
                 new_users = e + "\n";
             }
         }
