@@ -12,18 +12,19 @@ exports.hostname = function(name) {
         name = "NodeJS";
     } 
     
-    return "\x1b[31m[\x1b[93mTraumatized\x1b[31m@\x1b[93m" + name + "\x1b[31m]\x1b[93m#~ \x1b[31m";
+    return "\x1b[34m[\x1b[97mTraumatized\x1b[34m@\x1b[97m" + name + "\x1b[34m]\x1b[97m#~ \x1b[34m";
 }
 
 exports.Colors = {
-    "Red": "\x1b[31m",
-    "Yellow": "\x1b[93m",
+    "Red": "\x1b[34m",
+    "Yellow": "\x1b[97m",
     "Blue": "\x1b[34m",
     "Purple": "\x1b[95m",
     "Green": "\x1b[32m",
     "Cyan": "\x1b[96m",
     "Black": "\x1b[30m",
     "Grey": "\x1b[90m",
+    "White": "\x1b[97m",
     "Reset": "\x1b[39m",
     "Background_Red": "\x1b[41m",
     "Background_Green": "\x1b[42m",
