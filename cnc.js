@@ -108,7 +108,12 @@ Server.svr.on('connection', async function(socket) {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "methods") {
-            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
+            if(eConfig.CurrentCmd.arg[1] == "1") {
+                
+                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Home_HomeM() + Config.hostname(Current[0]))
+            } else {
+                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
+            }
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             if(eCrud.isAdmin(Current[0]) || eConfig.CurrentUser.isAdmin === true) {
                 let tool = eConfig.CurrentCmd.arg[1];
