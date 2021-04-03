@@ -1,2 +1,2 @@
-node cnc.js
+nodemon cnc.js
 pause
