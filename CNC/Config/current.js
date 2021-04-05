@@ -1,4 +1,5 @@
 // Files
+const dis = require("./current.js");
 const Crud = require("../Auth/crud.js");
 const C = require("./current.js");
 
@@ -36,5 +37,11 @@ exports.GetCmd = function(Cmd) {
 }
 
 exports.GetUserInfo = function(user) {
-    
+    let get_user = Crud.User(user).split(",");
+    dis.CurrentUser.Username = get_user[0];
+    dis.CurrentUser.IP = get_user[1];
+    dis.CurrentUser.Password = get_user[2];
+    dis.CurrentUser.Level = parseInt(get_user[3]);
+    dis.CurrentUser.Maxtime = parseInt(get_user[4]);
+    dis.CurrentUser.isAdmin = (parseInt(get_user[5]) === 1 ? true : false);
 }
