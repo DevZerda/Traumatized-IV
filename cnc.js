@@ -52,7 +52,6 @@ Server.svr.on('connection', async function(socket) {
     let username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
-    eExtra.log_action("Connecting", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
 
     //Get Password
     socket.write(Banners.login_v());
@@ -66,7 +65,9 @@ Server.svr.on('connection', async function(socket) {
     if(login_resp.includes("Successfully")) {
         socket.write(Banners.main_b());
         socket.write("                   Welcome To FloodSec Bypass Land, " + username + "\r\n");
+        eExtra.log_action("Login Attempt Successfully", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
     } else {
+        eExtra.log_action("Login Attempt Failed", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
         socket.write(Config.Colors.Clear + "Error, Invalid Info!");
         await eExtra.sleep(3000).then(() => {
             socket.destroy();
@@ -154,6 +155,12 @@ Server.svr.on('connection', async function(socket) {
         
         eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
     })
+
+    for(let i = 0; i < 1; i++) {
+        eExtra.sleep(1000).then(() => {
+            i++;
+        })
+    }
         
 
         //* END
