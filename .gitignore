@@ -1,3 +1,4 @@
 
 *.py
 *.php
+node_modules/strip-ansi/index.d.ts
