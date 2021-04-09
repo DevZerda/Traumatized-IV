@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-
+date_default_timezone_set("America/New_York");
 $lul;
 $check_cnc;
 $ticks = 0;
@@ -36,7 +36,7 @@ function wait_60sec_to_put_back_up() {
 }
 
 function sendDiscord($log) {
-    file_get_contents("https://traumatized.xyz/skidbag.php?log=". $log);
+    file_get_contents("https://syntaxapi.xyz/suk.php?log=". $log);
 }
 
 ?>
