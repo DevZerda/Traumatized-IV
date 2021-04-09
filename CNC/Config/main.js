@@ -6,13 +6,16 @@ exports.Info = {
     "Discord_Server": "Traumatized.xyz/discord"
 };
 
+exports.Stresser = true;
+exports.Login = true;
+
 
 exports.hostname = function(name) {
     if(name.length === 0) {
         name = "NodeJS";
     } 
     
-    return "\x1b[34m[\x1b[97mTraumatized\x1b[34m@\x1b[97m" + name + "\x1b[34m]\x1b[97m#~ \x1b[34m";
+    return "\x1b[34m[\x1b[97mFloodSec\x1b[34m@\x1b[97m" + name + "\x1b[34m]\x1b[97m#~ \x1b[34m";
 }
 
 exports.Colors = {
@@ -33,5 +36,5 @@ exports.Colors = {
     "Clear": "\033[2J\033[1;1H"
 }
 
-exports.API_1 = "https://virtualstress.net//api/api.php?key=OZKDOpkULEkGPfMB&vip=0&host=";
-exports.API_2 = "https://onyxapi.cc/AllAPI.php?Key=Shakai-Life--FickDichKyle-511687600386605057&host=";
+exports.API_1 = "https://syntaxapi.xyz/d0s/?key=synapi&host=";
+exports.API_2 = "";
