@@ -158,7 +158,6 @@ Server.svr.on('connection', async function(socket) {
         }
         
         eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
-        eConfig.ResetUserInfo();
     })
         
 
