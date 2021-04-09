@@ -41,9 +41,25 @@ exports.isPremium = function(user) {
 *@params: Username
 *@type: [<boolean>]
 */
+exports.isReseller = function(user) {
+    let get_user = Crud.User(user).split(",");
+    if(parseInt(get_user[5]) === 2) {
+        return true;
+    } else if(parseInt(get_user[5]) === 0) {
+        return false;
+    } else {
+        // console.log("Error") // APP ERROR (DIDNT READ DB CORRECT OR USER LINE CORRUPTED)
+        return false;
+    }
+}
+
+/*
+*@params: Username
+*@type: [<boolean>]
+*/
 exports.isAdmin = function(user) {
     let get_user = Crud.User(user).split(",");
-    if(parseInt(get_user[5]) === 1) {
+    if(parseInt(get_user[5]) === 2) {
         return true;
     } else if(parseInt(get_user[5]) === 0) {
         return false;
@@ -123,6 +139,10 @@ exports.CurrentOnlineCount = function() {
     return users.length-1;
 }
 
+/*
+*@param: Username
+*@type: [<string>]
+*/
 exports.show_stats = function(user) {
     let get_user = Crud.User(user);
     let info = get_user.split(",");
