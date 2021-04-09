@@ -22,6 +22,10 @@ const eExtra = require("./CNC/Extra/functions.js");
 
 
 Server.svr.on('connection', async function(socket) {
+    if(Config.Login === false) {
+        socket.write("The net is currently under maintenance");
+        socket.destroy();
+    }
     eExtra.set_TerminalSize(30, 80, socket);
 
     /*
@@ -31,7 +35,7 @@ Server.svr.on('connection', async function(socket) {
     /* Getting Connecting User IP/PORT */
     Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
-    eExtra.set_Title("FloodSec IV | [API]: 1 | ", socket)
+    eExtra.set_Title("FloodSec IV | [API]: 6 | ", socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT + "\r\n");
@@ -48,7 +52,7 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
-    eExtra.set_Title("                                                  FloodSec VI | Welcome to bypass land | [APIs]: 1", socket);
+    eExtra.set_Title("                                                  FloodSec VI | Welcome to bypass land | [APIs]: 6", socket);
     let username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
@@ -130,7 +134,7 @@ Server.svr.on('connection', async function(socket) {
                 let arg6 = eConfig.CurrentCmd.arg[6];
                 let arg7 = eConfig.CurrentCmd.arg[7];
                 if(tool === "add") {
-                    let resp = Crud.addUser(arg2, "none", arg3, arg4, arg5, arg6);
+                    let resp = Crud.addUser(arg2, arg3, arg4, arg5, arg6);
                     socket.write(resp + Config.hostname(Current[0]));                    
                 } else if(tool === "remove") {
                     socket.write(Crud.removeUser(arg2) + Config.hostname(Current[0]));
@@ -154,13 +158,8 @@ Server.svr.on('connection', async function(socket) {
         }
         
         eExtra.log_action("CMD", username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
+        eConfig.ResetUserInfo();
     })
-
-    for(let i = 0; i < 1; i++) {
-        eExtra.sleep(1000).then(() => {
-            i++;
-        })
-    }
         
 
         //* END
