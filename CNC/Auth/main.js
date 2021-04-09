@@ -6,6 +6,11 @@ const Crud = require("./crud.js");
 const eCrud = require("./functions.js");
 const eExtra = require("../Extra/functions.js");
 
+
+/*
+*@params: Username, Password, IP
+*@type: [<string>]
+*/
 exports.login = function(user, pass, ip) {
     if(user.length === 0 || pass.length === 0) {
         return "[x] Error, Invalud argument value!";
