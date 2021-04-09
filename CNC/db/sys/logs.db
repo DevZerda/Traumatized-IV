@@ -2882,3 +2882,573 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 1 | [Admin]: 1
 [Cmd]: methods | [FullCmd]: methods 1
 
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:49958
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:49958
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:49958
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50049
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50053
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50053
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50053
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods home
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50053
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods game
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50065
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50065
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50065
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods home
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50065
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods game
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50065
+[Level]: 1 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50078
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50081
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50081
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: myinfo | [FullCmd]: myinfo
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods home
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods game
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods bypass
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods special
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50084
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50372
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50372
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50372
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50372
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods home
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods game
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods game
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: f | [FullCmd]: f
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: f | [FullCmd]: f
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:50380
+[Level]: 1 | [Admin]: 1
+[Cmd]: i | [FullCmd]: i
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51781
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51813
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51813
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51813
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51813
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51813
+[Level]: 1 | [Admin]: 1
+[Cmd]: d | [FullCmd]: d
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51881
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:51953
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52002
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52021
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52102
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52108
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]:  | [IP]: 127.0.0.1:52150
+[Level]: 3 | [Admin]: 0
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52925
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52950
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:52982
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53010
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53044
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53044
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53118
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53118
+[Level]: 1 | [Admin]: 1
+[Cmd]: HELP | [FullCmd]: HELP
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53118
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53166
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: [object Promise]
+[User]: nano | [IP]: 127.0.0.1:53166
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Connecting | [Timestamp]: Mon Apr 05 2021 08:40:38 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:53190
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 05 2021 08:43:54 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:53376
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 05 2021 18:11:17 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:20 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:20 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:29 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:30 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:32 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:33 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods gome
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:34 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:37 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods home
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:37 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:39 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods game
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:41 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods bypass
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:45 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods special
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:47 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: clear | [FullCmd]: clear
+
+[LOG]: CMD | [Timestamp]: Mon Apr 05 2021 18:11:49 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50135
+[Level]: 1 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Tue Apr 06 2021 14:22:05 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50253
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 14:22:08 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50253
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 14:22:10 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50253
+[Level]: 1 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Tue Apr 06 2021 14:27:25 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50301
+[Level]: 1 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 14:27:52 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50301
+[Level]: 1 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: Login Attempt Failed | [Timestamp]: Tue Apr 06 2021 16:02:52 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:51766
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Failed | [Timestamp]: Tue Apr 06 2021 16:03:01 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:51769
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Failed | [Timestamp]: Tue Apr 06 2021 16:03:39 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:51781
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Failed | [Timestamp]: Tue Apr 06 2021 16:03:44 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51785
+[Level]: 3 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Tue Apr 06 2021 16:04:33 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 1
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 16:04:35 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 1
+[Cmd]: help | [FullCmd]: help
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 16:04:36 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 1
+[Cmd]: methods | [FullCmd]: methods
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 16:04:37 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 16:04:39 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 16:04:52 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 1
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: CMD | [Timestamp]: Tue Apr 06 2021 16:05:18 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51791
+[Level]: 3 | [Admin]: 2
+[Cmd]: admin | [FullCmd]: admin help
+
+[LOG]: Login Attempt Failed | [Timestamp]: Wed Apr 07 2021 16:45:15 GMT-0400 (Eastern Daylight Time)
+[User]: vlob | [IP]: 127.0.0.1:50176
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Failed | [Timestamp]: Thu Apr 08 2021 13:50:20 GMT-0400 (Eastern Daylight Time)
+[User]: nano | [IP]: 127.0.0.1:50017
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Thu Apr 08 2021 18:09:18 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51748
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Thu Apr 08 2021 18:22:56 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:22:59 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:23:02 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:04 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:05 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:07 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:10 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:14 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:16 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Thu Apr 08 2021 18:35:18 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:51804
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Failed | [Timestamp]: Thu Apr 08 2021 20:08:42 GMT-0400 (Eastern Daylight Time)
+[User]: vlob | [IP]: 127.0.0.1:54409
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
