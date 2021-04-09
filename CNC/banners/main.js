@@ -51,6 +51,9 @@ exports.login_v = function() {
     return l_v;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.help_list = function() {
     let help_b = Config.Colors.Blue + "       ╔══════════════════════╦═════════════════════════════════════════╗\r\n";
     help_b += "       ║  " + Config.Colors.White + "Command Info" + Config.Colors.Blue + "        ║  " + Config.Colors.White + "Command Usage" + Config.Colors.Blue + "                          ║\r\n";
@@ -67,6 +70,9 @@ exports.help_list = function() {
     return help_b;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.admin_list = function() {
     let admin_b = Config.Colors.Blue + "     ╔══════════════════════╦═════════════════════════════════════════════╗\r\n";
     admin_b += "     ║  " + Config.Colors.White + "Command Info" + Config.Colors.Blue + "        ║  " + Config.Colors.White + "Command Usage" + Config.Colors.Blue + "                              ║\r\n";
@@ -86,6 +92,9 @@ exports.admin_list = function() {
     return admin_b;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.statistics = function() {
     let stats = "    ╔══════════════════╗   ╔══════════════════════╗   ╔══════════════════╗\r\n";
     stats += "    ║   Total Users    ║   ║  Total Online Users  ║   ║  Total Attacks   ║\r\n";
@@ -95,6 +104,9 @@ exports.statistics = function() {
     return stats;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.methods = function () {
     let SpehcM = "";
     SpehcM += Config.Colors.White + "                             ╔╦╗╔═╗╔╦╗╦ ╦╔═╗╔╦╗╔═╗\r\n";
@@ -109,6 +121,9 @@ exports.methods = function () {
     return SpehcM;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.Home_HomeM = function() {
     let HomeM = "";
     HomeM += Config.Colors.Blue + "                               ╔════════════════╗\r\n";
@@ -130,6 +145,9 @@ exports.Home_HomeM = function() {
     return HomeM;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.Game_GameM = function() {
     let GameM = "";
     GameM += Config.Colors.Blue + "                               ╔════════════════╗\r\n";
@@ -151,6 +169,9 @@ exports.Game_GameM = function() {
     return GameM;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.Bypass_BypaM = function() {
     let BypaM = "";
     BypaM += Config.Colors.Blue + "                               ╔════════════════╗\r\n";
@@ -172,6 +193,9 @@ exports.Bypass_BypaM = function() {
     return BypaM;
 }
 
+/*
+*@type: [<string>]
+*/
 exports.Special_SpecM = function() {
     let SpecM = "";
     SpecM += Config.Colors.Blue + "                               ╔════════════════╗\r\n";
@@ -193,9 +217,9 @@ exports.Special_SpecM = function() {
     return SpecM;
 }
 
-
-
-
+/*
+*@type: [<string>]
+*/
 exports.makeMOTD = function() {
     let middle_bannr = " MOTD: ";
     let motd = fs.readFileSync("./CNC/db/sys/motd.dat", "utf8");
@@ -203,6 +227,10 @@ exports.makeMOTD = function() {
     return Config.Colors.Blue + "╔══════════════════════════════════════════════════════════════════════════════╗\r\n║" + middle_bannr + "║\r\n╚══════════════════════════════════════════════════════════════════════════════╝\r\n";
 }
 
+/*
+@param: MOTD
+*@type: [<string>]
+*/
 exports.fix_motd = function(motd) { 
     let name = " MOTD:                                                                       "
     let name_length = name.length;
