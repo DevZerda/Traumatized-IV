@@ -20,6 +20,10 @@ exports.CurrentUser = {
     "isAdmin": false
 };
 
+/*
+*@param: CMD
+*@type: [<void>]
+*/
 exports.GetCmd = function(Cmd) {
     C.CurrentCmd.Fullcmd = Cmd;
     if(Cmd.includes(" ")) {
@@ -36,6 +40,10 @@ exports.GetCmd = function(Cmd) {
     }
 }
 
+/*
+*@param: Username
+*@type: [<void>]
+*/
 exports.GetUserInfo = function(user) {
     let get_user = Crud.User(user).split(",");
     dis.CurrentUser.Username = get_user[0];
@@ -44,4 +52,19 @@ exports.GetUserInfo = function(user) {
     dis.CurrentUser.Level = parseInt(get_user[3]);
     dis.CurrentUser.Maxtime = parseInt(get_user[4]);
     dis.CurrentUser.isAdmin = (parseInt(get_user[5]) === 1 ? true : false);
+}
+
+/*
+*@type: [<void>]
+*/
+exports.ResetUserInfo = function() {
+    dis.CurrentCmd.arg = [];
+    dis.CurrentCmd.Cmd = "";
+    dis.CurrentCmd.Fullcmd = "";
+    dis.CurrentUser.Username = "";
+    dis.CurrentUser.IP = "";
+    dis.CurrentUser.Password = "";
+    dis.CurrentUser.Level = "";
+    dis.CurrentUser.Maxtime = "";
+    dis.CurrentUser.isAdmin = "";
 }
