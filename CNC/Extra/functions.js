@@ -16,6 +16,11 @@ exports.sleep = (milliseconds) => {
     return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
 
+exports.methodValidation = async function(meth) { 
+    let methods = await(await fetch("https://syntaxapi.xyz/methods.txt")).text();
+    return (methods.includes(meth) ? true : false);
+}
+
 /*
 *@params: Log Type, Username, IP Address
 *@type: [<string>]
@@ -129,9 +134,8 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     let get_user = Crud.User(usr);
     let max_time = get_user.split(",")[4];
 
-    if(parseInt(time) > parseInt(max_time)) {
-        return "[x] Error, You've reached your max time!";
-    }
+    if(parseInt(time) > parseInt(max_time)) return "[x] Error, You've reached your max time!\r\n";
+    if(await eExtra.methodValidation(method) == false) return "[x] Error, Invalid method!\r\n";
 
     this.log_action(usr, ip, port, time, method);
     let response = "";
@@ -178,7 +182,7 @@ exports.get_api_response = function(rpn) {
     } else if(new_res.includes("error when connecting to the server if the problem")) { //CUSTOM (REMOVE LATER)
         return "Error, Either all fields aren't set or invalid method!";
     } else {
-        return "Error, Something went wrong catching attack response!";
+        return "Error, Something went wrong catching attack response but this doesn't mean the attack didn't go through!";
     }
 }
 
