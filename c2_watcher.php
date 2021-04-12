@@ -20,7 +20,7 @@ while(true) {
 }
 
 function wait_60sec_to_put_back_up() {
-    sendDiscord("CNC went down!");
+    sendDiscord("down");
     sleep(60);
     echo "Starting CNC....!\r\n";
     $cnc = "";
@@ -28,15 +28,19 @@ function wait_60sec_to_put_back_up() {
     $result = exec("pgrep -fl cnc", $cnc, $lul);
     if(strpos($check_cnc, "node") !== false) {
         echo "Noticed the CNC is back up so i didnt try!...\r\n";
-        sendDiscord("CNC started already");
+        sendDiscord("start");
     } else {
         exec("screen -dmS cnc node cnc.js");
-        sendDiscord("CNC Started!!");
+        sendDiscord("start");
     }
 }
 
 function sendDiscord($log) {
-    file_get_contents("https://syntaxapi.xyz/suk.php?log=". $log);
+    if($log == "start") {
+        exec("curl 'https://syntaxapi.xyz/suk.php?log=CNC Started!'");
+    } else {
+        exec("curl 'https://syntaxapi.xyz/suk.php?log=CNC Went Down! Starting in 60 seconds...'");
+    }
 }
 
 ?>
