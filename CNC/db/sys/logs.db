@@ -3452,3 +3452,93 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: undefined | [Admin]: undefined
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 06:52:57 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60525
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: undefined | [Timestamp]: Mon Apr 12 2021 06:53:10 GMT-0400 (Eastern Daylight Time)
+[User]: 5.5.5.5 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 30 DNNN
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 06:54:09 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60540
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 06:54:44 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60546
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 06:54:50 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60546
+[Level]: 3 | [Admin]: 2
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 30 dnn
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 06:59:07 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60560
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 06:59:12 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60560
+[Level]: 3 | [Admin]: 2
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 30 dnnn
+
+[LOG]: undefined | [Timestamp]: Mon Apr 12 2021 07:00:28 GMT-0400 (Eastern Daylight Time)
+[User]: 70.70.70.72 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 70.70.70.72 80 30 DNS
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 07:31:25 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60707
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 07:31:31 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60707
+[Level]: 3 | [Admin]: 2
+[Cmd]: admin | [FullCmd]: admin add test test 0 0 0
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 07:31:35 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60707
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin remove test
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 07:32:21 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60714
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 07:32:24 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60714
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin remove test
+
+[LOG]: Login Attempt Failed | [Timestamp]: Mon Apr 12 2021 07:33:29 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60720
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 07:33:44 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60724
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 07:33:47 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60724
+[Level]: undefined | [Admin]: undefined
+[Cmd]: admin | [FullCmd]: admin remove test
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 07:37:11 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60748
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 07:37:14 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60748
+[Level]: 3 | [Admin]: 2
+[Cmd]: admin | [FullCmd]: admin remove test
+
