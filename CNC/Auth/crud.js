@@ -60,8 +60,9 @@ exports.removeUser = function(user) {
 
     users.forEach(e => {
         if(e.length > 5) {
+            username = e.split("','")[0].replace("('", "");
             if(!e.includes(user)) {
-                new_db = e + "\n";
+                new_db += e + "\n";
             } 
         }
     })
