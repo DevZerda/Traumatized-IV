@@ -264,3 +264,7 @@ exports.blacklist_ip_from_stresser = function(ip) {
     fs.readFileSync("./CNC/db/sys/blacklisted_attacked_ips.db", "('" + ip + "')\n");
     return "[+] IP: " + ip + " successfully blacklisted from stresser!\r\n";
 }
+
+exports.LogFreeSession = function(user, ip) {
+    fs.appendFileSync("./CNC/db/sys/free_current.db", "('" + user + "','" + ip + "')\n");
+}
