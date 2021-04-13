@@ -5,6 +5,19 @@ const fs = require("fs");
 const Config = require("../Config/main.js");
 const b = require("./main.js")
 
+
+exports.start_banner = function() { 
+    let gang = Config.Colors.Blue + "                 ╔══════════════════════════════════════════╗\r\n";
+    gang += "                 ║         " + Config.Colors.White + "╔═╗╦  ╔═╗╔═╗╔╦╗╔═╗╔═╗╔═╗" + Config.Colors.Blue + "         ║\r\n";
+    gang += "                 ║         " + Config.Colors.White + "╠╣ ║  ║ ║║ ║ ║║╚═╗║╣ ║  " + Config.Colors.Blue + "         ║\r\n";
+    gang += "                 ║         " + Config.Colors.White + "╚  ╩═╝╚═╝╚═╝═╩╝╚═╝╚═╝╚═╝" + Config.Colors.Blue + "         ║\r\n";
+    gang += "                 ╚══════════════════════════════════════════╝\r\n";
+    gang += "            ╔════════════════╗ ╔════════════════╗ ╔════════════════╗\r\n";
+    gang += "            ║ " + Config.Colors.White + "1. Login" + Config.Colors.Blue + "       ║ ║ " + Config.Colors.White + "2. Register" + Config.Colors.Blue + "    ║ ║ " + Config.Colors.White + "3. Free Tools" + Config.Colors.Blue + "  ║\r\n";
+    gang += "            ╚════════════════╝ ╚════════════════╝ ╚════════════════╝\r\n";
+    return gang;
+}
+
 /*
 *@type: [<string>]
 */
@@ -61,6 +74,7 @@ exports.help_list = function() {
     help_b += "       ║ " + Config.Colors.White + "Help Commands" + Config.Colors.Blue + "        ║  " + Config.Colors.White + "help | ?" + Config.Colors.Blue + "                               ║\r\n";
     help_b += "       ║ " + Config.Colors.White + "Clear Screen" + Config.Colors.Blue + "         ║  " + Config.Colors.White + "clear | cls" + Config.Colors.Blue + "                            ║\r\n";
     help_b += "       ║ " + Config.Colors.White + "My Account Info" + Config.Colors.Blue + "      ║  " + Config.Colors.White + "myinfo" + Config.Colors.Blue + "                                 ║\r\n";
+    help_b += "       ║ " + Config.Colors.White + "Change Password" + Config.Colors.Blue + "      ║  " + Config.Colors.White + "change_pw <password>" + Config.Colors.Blue + "                   ║\r\n";
     help_b += "       ║ " + Config.Colors.White + "Methods" + Config.Colors.Blue + "              ║  " + Config.Colors.White + "methods" + Config.Colors.Blue + "                                ║\r\n";
     help_b += "       ║ " + Config.Colors.White + "Geo IP" + Config.Colors.Blue + "               ║  " + Config.Colors.White + "geo <ip>" + Config.Colors.Blue + "                               ║\r\n";
     help_b += "       ║ " + Config.Colors.White + "Port Scanner" + Config.Colors.Blue + "         ║  " + Config.Colors.White + "scan <ip>" + Config.Colors.Blue + "                              ║\r\n";
@@ -215,6 +229,19 @@ exports.Special_SpecM = function() {
     SpecM += "    ║-> " + Config.Colors.White + "HTTP-GET" + Config.Colors.Blue + "     ║║-> " + Config.Colors.White + "DEDI-PATH" + Config.Colors.Blue + "    ║║-> " + Config.Colors.White + "TCP-BYPASS" + Config.Colors.Blue + "   ║║-> " + Config.Colors.White + "XXX" + Config.Colors.Blue + "          ║\r\n";
     SpecM += "    ╚════════════════╝╚════════════════╝╚════════════════╝╚════════════════╝\r\n";
     return SpecM;
+}
+
+exports.FreeTools_help = function() {
+    let lulzsec = Config.Colors.Blue + "       ╔══════════════════════╦═════════════════════════════════════════╗\r\n";
+    lulzsec += "       ║  " + Config.Colors.White + "Command Info" + Config.Colors.Blue + "        ║  " + Config.Colors.White + "Command Usage" + Config.Colors.Blue + "                          ║\r\n";
+    lulzsec += "       ╠══════════════════════╬═════════════════════════════════════════╣\r\n";
+    lulzsec += "       ║ " + Config.Colors.White + "Help Commands" + Config.Colors.Blue + "        ║  " + Config.Colors.White + "help | ?" + Config.Colors.Blue + "                               ║\r\n";
+    lulzsec += "       ║ " + Config.Colors.White + "Clear Screen" + Config.Colors.Blue + "         ║  " + Config.Colors.White + "clear | cls" + Config.Colors.Blue + "                            ║\r\n";
+    lulzsec += "       ║ " + Config.Colors.White + "Methods" + Config.Colors.Blue + "              ║  " + Config.Colors.White + "methods" + Config.Colors.Blue + "                                ║\r\n";
+    lulzsec += "       ║ " + Config.Colors.White + "Geo IP" + Config.Colors.Blue + "               ║  " + Config.Colors.White + "geo <ip>" + Config.Colors.Blue + "                               ║\r\n";
+    lulzsec += "       ║ " + Config.Colors.White + "Port Scanner" + Config.Colors.Blue + "         ║  " + Config.Colors.White + "scan <ip>" + Config.Colors.Blue + "                              ║\r\n";
+    lulzsec += "       ╚══════════════════════╩═════════════════════════════════════════╝\r\n";
+    return lulzsec;
 }
 
 /*
