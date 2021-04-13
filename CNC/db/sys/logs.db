@@ -3542,3 +3542,38 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 3 | [Admin]: 2
 [Cmd]: admin | [FullCmd]: admin remove test
 
+[LOG]: Login Attempt Failed | [Timestamp]: Mon Apr 12 2021 08:04:49 GMT-0400 (Eastern Daylight Time)
+[User]: vlob | [IP]: 127.0.0.1:60838
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 12 2021 08:04:57 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60841
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 08:05:03 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60841
+[Level]: 3 | [Admin]: 2
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 30 ddd
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 08:05:11 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60841
+[Level]: 3 | [Admin]: 2
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 30 dns
+
+[LOG]: undefined | [Timestamp]: Mon Apr 12 2021 08:05:21 GMT-0400 (Eastern Daylight Time)
+[User]: 5.5.5.5 | [IP]: 80
+[Level]: undefined | [Admin]: undefined
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 20 DNS
+
+[LOG]: CMD | [Timestamp]: Mon Apr 12 2021 08:05:30 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:60841
+[Level]: 3 | [Admin]: 2
+[Cmd]: stress | [FullCmd]: stress 5.5.5.5 80 20 DNS
+
+[LOG]: Login Attempt Failed | [Timestamp]: Mon Apr 12 2021 11:59:23 GMT-0400 (Eastern Daylight Time)
+[User]: vlob | [IP]: 127.0.0.1:63462
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
