@@ -5,6 +5,11 @@ const C = require("./current.js");
 
 exports.clients = [];
 
+exports.CurrentLogin = {
+    "Username": "",
+    "Password": ""
+};
+
 exports.CurrentCmd = {
     "Cmd": "",
     "arg": [],
