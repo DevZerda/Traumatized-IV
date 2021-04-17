@@ -123,15 +123,36 @@ exports.statistics = function() {
 */
 exports.methods = function () {
     let SpehcM = "";
-    SpehcM += Config.Colors.White + "                             ╔╦╗╔═╗╔╦╗╦ ╦╔═╗╔╦╗╔═╗\r\n";
+    SpehcM += Config.Colors.Blue + "                             ╔╦╗╔═╗╔╦╗╦ ╦╔═╗╔╦╗╔═╗\r\n";
     SpehcM += "                             ║║║║╣  ║ ╠═╣║ ║ ║║╚═╗\r\n";
     SpehcM += "                             ╩ ╩╚═╝ ╩ ╩ ╩╚═╝═╩╝╚═╝\r\n";
-    SpehcM += "                      " + Config.Colors.Blue + "╔══════════════════════════════════╗\r\n";
-    SpehcM += "                      ║ [+] " + Config.Colors.White + "Home Methods = Home" + Config.Colors.Blue + "          ║\r\n";
-    SpehcM += "                      ║ [+] " + Config.Colors.White + "Game Methods = Game" + Config.Colors.Blue + "          ║\r\n";
-    SpehcM += "                      ║ [+] " + Config.Colors.White + "Bypass Methods = Bypass" + Config.Colors.Blue + "      ║\r\n";
-    SpehcM += "                      ║ [+] " + Config.Colors.White + "Special Methods = Special" + Config.Colors.Blue + "    ║\r\n";
-    SpehcM += "                      ╚══════════════════════════════════╝\r\n";
+    SpehcM += "           ╔═══════════╗      ╔═══════════╗      ╔═══════════╗\r\n";
+    SpehcM += "           ║   " + Config.Colors.White + "API 1" + Config.Colors.Blue + "   ║      ║   " + Config.Colors.White + "API 2" + Config.Colors.Blue + "   ║      ║   " + Config.Colors.White + "API 3" + Config.Colors.Blue + "   ║\r\n";
+    SpehcM += "           ╚══╦═════╦══╝      ╚══╦     ╦══╝      ╚══╦     ╦══╝\r\n";
+    SpehcM += "          ╔═══╝     ╚════╗   ╔═══╝     ╚════╗   ╔═══╝     ╚════╗\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "DNS-X" + Config.Colors.Blue + "        ║   ║ " + Config.Colors.White + "STD" + Config.Colors.Blue + "          ║   ║ " + Config.Colors.White + "ARD" + Config.Colors.Blue + "          ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "LDAP-X" + Config.Colors.Blue + "       ║   ║ " + Config.Colors.White + "OVH" + Config.Colors.Blue + "          ║   ║ " + Config.Colors.White + "NTP" + Config.Colors.Blue + "          ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "CLDAP" + Config.Colors.Blue + "        ║   ║ " + Config.Colors.White + "HTTP" + Config.Colors.Blue + "         ║   ║ " + Config.Colors.White + "XLDAP" + Config.Colors.Blue + "        ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "SNMP" + Config.Colors.Blue + "         ║   ╚══════════════╝   ║ " + Config.Colors.White + "SMACK" + Config.Colors.Blue + "        ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "SNMPV2" + Config.Colors.Blue + "       ║                      ║ " + Config.Colors.White + "SYN" + Config.Colors.Blue + "          ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "STORM" + Config.Colors.Blue + "        ║                      ║ " + Config.Colors.White + "xPUSH" + Config.Colors.Blue + "        ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "SOAP" + Config.Colors.Blue + "         ║                      ║ " + Config.Colors.White + "TCPv2" + Config.Colors.Blue + "        ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "AMP" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "FN-LAG" + Config.Colors.Blue + "       ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "IPX" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "R6-DROP" + Config.Colors.Blue + "      ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "IPXv2" + Config.Colors.Blue + "        ║                      ║ " + Config.Colors.White + "RL-CRASH" + Config.Colors.Blue + "     ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "BOOM" + Config.Colors.Blue + "         ║                      ║ " + Config.Colors.White + "ARK-LIFTv1" + Config.Colors.Blue + "   ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "CITRIX" + Config.Colors.Blue + "       ║                      ║ " + Config.Colors.White + "FIVEM-UDP" + Config.Colors.Blue + "    ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "DIGIMAN" + Config.Colors.Blue + "      ║                      ║ " + Config.Colors.White + "FIVEM-TCP" + Config.Colors.Blue + "    ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "JUNKINS" + Config.Colors.Blue + "      ║                      ║ " + Config.Colors.White + "RUST-SLAP" + Config.Colors.Blue + "    ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "KATURNA" + Config.Colors.Blue + "      ║                      ║ " + Config.Colors.White + "2K-CLAPPER" + Config.Colors.Blue + "   ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "LANTRONIX" + Config.Colors.Blue + "    ║                      ║ " + Config.Colors.White + "ARK-HARD255" + Config.Colors.Blue + "  ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "PORTMAP" + Config.Colors.Blue + "      ║                      ║ " + Config.Colors.White + "OVH-SAS" + Config.Colors.Blue + "      ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "N/A" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "OVH-MIX" + Config.Colors.Blue + "      ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "N/A" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "NFO-TCP" + Config.Colors.Blue + "      ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "N/A" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "OVH-TCP" + Config.Colors.Blue + "      ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "N/A" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "100UP-TCP" + Config.Colors.Blue + "    ║\r\n";
+    SpehcM += "          ║ " + Config.Colors.White + "N/A" + Config.Colors.Blue + "          ║                      ║ " + Config.Colors.White + "SSH-KILLER" + Config.Colors.Blue + "   ║\r\n";
+    SpehcM += "          ╚══════════════╝                      ╚══════════════╝\r\n";
     return SpehcM;
 }
 
