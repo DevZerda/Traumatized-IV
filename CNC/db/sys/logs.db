@@ -4037,3 +4037,163 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 3 | [Admin]: 2
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:31:12 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64475
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:31:14 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64475
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:33:27 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64485
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:33:30 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64485
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:34:38 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64492
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:34:54 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64492
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:37:00 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64499
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:37:07 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64499
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:37:48 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64511
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:37:49 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64511
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:38:25 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64511
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:39:56 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64541
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:40:06 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64541
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 16:41:41 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64563
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 16:41:53 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64563
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:18:11 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64796
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:18:19 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64796
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Failed | [Timestamp]: Sat Apr 17 2021 17:22:50 GMT-0400 (Eastern Daylight Time)
+[User]: roots | [IP]: 127.0.0.1:64825
+[Level]: undefined | [Admin]: undefined
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:22:59 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64827
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:23:07 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64827
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:24:24 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64827
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:25:16 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64840
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:25:30 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64840
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:27:19 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64849
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:27:25 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64849
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:29:06 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64861
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:29:15 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64861
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:30:09 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64866
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:30:27 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64866
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Sat Apr 17 2021 17:32:32 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:64898
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:32:38 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64898
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Sat Apr 17 2021 17:39:24 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:64898
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
