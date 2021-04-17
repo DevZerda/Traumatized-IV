@@ -37,5 +37,3 @@ exports.Colors = {
 }
 
 exports.API_1 = "https://syntaxapi.xyz/d0s/?key=synapi&host=";
-exports.API_2 = "https://syntaxapi.xyz/d0s/lul.php?key=bootycheeks&host=";
-exports.API_3 = "https://syntaxapi.xyz/d0s/api2.php?key=bootycheeks&host=";
