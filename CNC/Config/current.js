@@ -7,7 +7,8 @@ exports.clients = [];
 
 exports.CurrentLogin = {
     "Username": "",
-    "Password": ""
+    "Password": "",
+    "IP": ""
 };
 
 exports.CurrentCmd = {
@@ -49,8 +50,8 @@ exports.GetCmd = function(Cmd) {
 *@param: Username
 *@type: [<void>]
 */
-exports.GetUserInfo = function(user) {
-    let get_user = Crud.User(user).split(",");
+exports.GetUserInfo = async function(user) {
+    let get_user = await Crud.User(user).split(",");
     dis.CurrentUser.Username = get_user[0];
     dis.CurrentUser.IP = get_user[1];
     dis.CurrentUser.Password = get_user[2];
