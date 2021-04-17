@@ -174,7 +174,7 @@ exports.removeSession = function(userOrip) {
     old_users.forEach(e => {
         if(e.length > 5) {
             if(!e.includes(userOrip)) {
-                new_users = e + "\n";
+                new_users += e + "\n";
             }
         }
     })
