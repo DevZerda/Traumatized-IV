@@ -36,4 +36,5 @@ exports.Colors = {
     "Clear": "\033[2J\033[1;1H"
 }
 
-exports.API_1 = "https://syntaxapi.xyz/d0s/?key=synapi&host=";
+exports.API_1 = "https://syntaxapi.xyz/d0s/?key=mykey&host=";
+exports.API_2 = "https://relevantstress.com/api/l4?key=a3074a1e75999dae95b66b20-579159c4&pps=500000&threads=4&host="
