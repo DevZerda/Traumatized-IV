@@ -39,11 +39,19 @@ gay.listen(444, function() {
     console.log("Bot Port Start => 444");
 })
 
+/*
+*@params: IP Address, Port
+*@type: [<string>]
+*/
 exports.setInfo = function(ip, port) {
     this.Socket_Info.UserIP = ip;
     this.Socket_Info.UserPORT = port;
 }
 
+/*
+*@params: IP Address, Port
+*@type: [<string>]
+*/
 exports.setBotInfo = function(ip, port) {
     this.Socket_Info.BotIP = ip;
     this.Socket_Info.BotPORT = port;
