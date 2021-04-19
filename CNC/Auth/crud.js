@@ -1,6 +1,5 @@
 // Modules
 const fs = require("fs");
-const { prependListener } = require("process");
 
 // File
 const Crud = require("./crud.js");
