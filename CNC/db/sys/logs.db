@@ -4197,3 +4197,23 @@ Accept-Language: da-DK,da;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6 | [IP]: 95.174.65.
 [Level]: 3 | [Admin]: 2
 [Cmd]:  | [FullCmd]: 
 
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 19 2021 07:15:39 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:49950
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: CMD | [Timestamp]: Mon Apr 19 2021 07:16:02 GMT-0400 (Eastern Daylight Time)
+[User]: root | [IP]: 127.0.0.1:49950
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 19 2021 07:16:21 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:49954
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
+[LOG]: Login Attempt Successfully | [Timestamp]: Mon Apr 19 2021 07:20:27 GMT-0400 (Eastern Daylight Time)
+[User]:  | [IP]: 127.0.0.1:49972
+[Level]: 3 | [Admin]: 2
+[Cmd]:  | [FullCmd]: 
+
